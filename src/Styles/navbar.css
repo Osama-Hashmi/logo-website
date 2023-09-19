@@ -101,6 +101,12 @@
     color: white;
 }
 
+.eminent video{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
 .tags a{
     padding-right: 20px;
     color: white;

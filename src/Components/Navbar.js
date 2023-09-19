@@ -4,6 +4,8 @@ import React from "react";
 import "../Styles/navbar.css";
 import Call from "../assets/icon_call.svg";
 import Chat from "../assets/icon_chat.svg";
+import logo from "../assets/logo.svg"
+import vid from "../assets/logo.mp4"
 
 
 
@@ -43,8 +45,9 @@ const Nabvar = () => {
 
       <div className="bar">
       <div className="eminent">
-        <img src="" alt="Logo" />
-        <h1>Logo <b>Eminent</b></h1>
+        <video src={vid}></video>
+        <img src={logo} alt="Logo" />
+        {/* <h1>Logo <b>Eminent</b></h1> */}
       </div>
 
           <div className="tags">
