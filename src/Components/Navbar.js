@@ -9,7 +9,7 @@ import vid from "../assets/logo.mp4"
 
 
 
-const Nabvar = () => {
+const Navbar = () => {
   return (
     <div className="nav">
       <div className="Navbar">
@@ -75,4 +75,4 @@ const Nabvar = () => {
   );
 };
 
-export default Nabvar;
+export default Navbar;
