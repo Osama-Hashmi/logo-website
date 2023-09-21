@@ -29,79 +29,66 @@ const Home = () => {
     {
       Image: alo,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Ana Shvets'
     },
     {
-      Image: work,
+      Image: work2,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Rene Asmussen'
     },
     {
-      Image: alo ,
+      Image: work3 ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Spencer Selover'
     },
     {
-      Image: alo ,
+      Image: work4 ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Eduardo Rosas'
     },
     {
-      Image: alo ,
+      Image: work ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Jonathan Meza'
     },
     {
-      Image: alo ,
+      Image: work6 ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Beatriz Braga'
     },
     {
-      Image: alo ,
+      Image: work7 ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Giang Trương'
     },
     {
-      Image: alo ,
+      Image: work11 ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Ksenia Chernaya'
     },
     {
-      Image: alo ,
+      Image: work8 ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Gustavo Fring'
     },
     {
-      Image: alo ,
+      Image: work9 ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Daniel Tran'
     },
     {
-      Image: alo ,
+      Image: work10 ,
       UserImage: c1,
-      Name: 'Hashmi'
+      Name: 'Leticia Ribeiro'
     },
-    {
-      Image: alo ,
-      UserImage: c1,
-      Name: 'Hashmi'
-    },
-    {
-      Image: alo ,
-      UserImage: c1,
-      Name: 'Hashmi'
-    },
-    {
-      Image: alo ,
-      UserImage: c1,
-      Name: 'Hashmi'
-    },
+
+
   ]
   return (
     <div className="main">
       <Navbar />
       <div className="home">
-        <div className="">
+        <div className="head">
           <Row gutter={[20,20]}>
             <Col xs={24} md={24} lg={12}>
               <div className="textss">
@@ -154,7 +141,7 @@ const Home = () => {
               <p><img src={c1} alt="" />Gustavo Fring</p>
             </div>
           </div> */}
-              <div className="col1">
+              {/* <div className="col1">
                 <SmallCard Image={work} UserImage={c1} Name="Jonathan Meza" />
                 <SmallCard Image={work8} UserImage={c1} Name="Gustavo Fring" />
               </div>
@@ -167,26 +154,20 @@ const Home = () => {
 
               <div className="col3">
                 <SmallCard
-                  Image={work3}
-                  UserImage={c1}
-                  Name="Spencer Selover"
+                  Image={work3} UserImage={c1} Name="Spencer Selover"
                 />
                 <SmallCard Image={work7} UserImage={c1} Name="Giang Trương" />
                 <SmallCard
-                  Image={work10}
-                  UserImage={c1}
-                  Name="Leticia Ribeiro"
+                  Image={work10} UserImage={c1} Name="Leticia Ribeiro"
                 />
               </div>
 
               <div className="col4">
                 <SmallCard Image={work4} UserImage={c1} Name="Eduardo Rosas" />
                 <SmallCard
-                  Image={work11}
-                  UserImage={c1}
-                  Name="Ksenia Chernaya"
+                  Image={work11} UserImage={c1} Name="Ksenia Chernaya"
                 />
-              </div>
+              </div> */}
 
               {/* <div className="col2">
                 <div className="crd1">
