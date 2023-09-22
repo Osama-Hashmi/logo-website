@@ -21,6 +21,11 @@ import logo4 from "../assets/logo4_1x.webp";
 import logo5 from "../assets/logo5_1x.webp";
 import logo6 from "../assets/logo6_1x.webp";
 import benefit from "../assets/benefits-side1_1x.webp";
+import C4 from "../assets/c4_1x.webp"
+import C7 from "../assets/c7_1x.webp"
+
+
+
 
 import SmallCard from "../Components/Cards/SmallCard";
 
@@ -33,12 +38,12 @@ const Home = () => {
     },
     {
       Image: work2,
-      UserImage: c1,
+      UserImage: C4,
       Name: 'Rene Asmussen'
     },
     {
       Image: work3 ,
-      UserImage: c1,
+      UserImage: C7,
       Name: 'Spencer Selover'
     },
     {

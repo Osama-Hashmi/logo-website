@@ -166,12 +166,12 @@
 }
 
 #textss{
-    height: 100%;
+    height: 100% !important;
     /* display: flex;
     justify-content: center;
     align-items: center; */
 }
 
 #cardss{
-    height: 100%;
+    height: 100% !important;
 }
