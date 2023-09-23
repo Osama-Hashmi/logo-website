@@ -21,80 +21,104 @@ import logo4 from "../assets/logo4_1x.webp";
 import logo5 from "../assets/logo5_1x.webp";
 import logo6 from "../assets/logo6_1x.webp";
 import benefit from "../assets/benefits-side1_1x.webp";
-import C4 from "../assets/c4_1x.webp"
-import C7 from "../assets/c7_1x.webp"
-
-
-
+import C4 from "../assets/c4_1x.webp";
+import C7 from "../assets/c7_1x.webp";
+import Modern from "../assets/modern1_1x.webp";
+import Modern2 from "../assets/modern2_1x.webp";
+import Modern3 from "../assets/modern3_1x.webp";
+import Modern4 from "../assets/animation-logo.mp4";
 
 import SmallCard from "../Components/Cards/SmallCard";
+import Logodesigncard from "../Components/Cards/Logodesigncard";
 
 const Home = () => {
   const CardData = [
     {
       Image: alo,
       UserImage: c1,
-      Name: 'Ana Shvets'
+      Name: "Ana Shvets",
     },
     {
       Image: work2,
       UserImage: C4,
-      Name: 'Rene Asmussen'
+      Name: "Rene Asmussen",
     },
     {
-      Image: work3 ,
+      Image: work3,
       UserImage: C7,
-      Name: 'Spencer Selover'
+      Name: "Spencer Selover",
     },
     {
-      Image: work4 ,
+      Image: work4,
       UserImage: c1,
-      Name: 'Eduardo Rosas'
+      Name: "Eduardo Rosas",
     },
     {
-      Image: work ,
+      Image: work,
       UserImage: c1,
-      Name: 'Jonathan Meza'
+      Name: "Jonathan Meza",
     },
     {
-      Image: work6 ,
+      Image: work6,
       UserImage: c1,
-      Name: 'Beatriz Braga'
+      Name: "Beatriz Braga",
     },
     {
-      Image: work7 ,
+      Image: work7,
       UserImage: c1,
-      Name: 'Giang Trương'
+      Name: "Giang Trương",
     },
     {
-      Image: work11 ,
+      Image: work11,
       UserImage: c1,
-      Name: 'Ksenia Chernaya'
+      Name: "Ksenia Chernaya",
     },
     {
-      Image: work8 ,
+      Image: work8,
       UserImage: c1,
-      Name: 'Gustavo Fring'
+      Name: "Gustavo Fring",
     },
     {
-      Image: work9 ,
+      Image: work9,
       UserImage: c1,
-      Name: 'Daniel Tran'
+      Name: "Daniel Tran",
     },
     {
-      Image: work10 ,
+      Image: work10,
       UserImage: c1,
-      Name: 'Leticia Ribeiro'
+      Name: "Leticia Ribeiro",
     },
+  ];
 
+  const logoDesignCardData = [
+    {
+      LogoImage: Modern,
+      Heading: "Iconic Logo Design",
+      Text: "Ingenuity is the key to being distinctive, and our logo design packages ensure that your business stands out right away. Our designers are skilled at producing iconic logo designs that look modern with perfect competence, transcending the restrained limitations of conventional creativity.",
+    },
+    {
+      LogoImage: Modern2,
+      Heading: "Typographic Logo Design",
+      Text: "Fonts used in typographic logo designs amplify a brand's message. Our team of expert logo designers ensures that your brand's message readily cuts through the noise produced by your competitors by perfectly harmonizing the typography of the logo design with all of its other features.",
+    },
+    {
+      LogoImage: Modern3,
+      Heading: "Illustrative Logo Design",
+      Text: "We create illustrative logos that are distinctive in an aesthetic sense and highlight your brand's USP attributes correctly. Our illustrative logo designs are of the highest calibre, and speak for themselves.",
+    },
+    {
+      LogoImage: Modern4,
+      Heading: "Animated Logo Design",
+      Text: "Brands looking to push the boundaries of conventional thinking can get the edge they are looking for via animated logos. Our animated logos are of the highest quality and are always successful in grasping the attention of the audience.",
+    },
+  ];
 
-  ]
   return (
     <div className="main">
       <Navbar />
       <div className="home">
         <div className="head">
-          <Row gutter={[20,20]}>
+          <Row gutter={[20, 20]}>
             <Col xs={24} md={24} lg={12}>
               <div className="textss">
                 <h1>
@@ -116,17 +140,17 @@ const Home = () => {
               </div>
             </Col>
             <Col xs={24} md={24} lg={12}>
-              <Row>
-                {
-                  CardData.map((data, i) => (
-                <Col xs={12} lg={6} key={i} className='cardss'>
-              <SmallCard Image={data.Image} UserImage={data.UserImage} Name={data.Name} />
-
-                </Col>
-
-                  ))
-                }
-                </Row>
+              <Row gutter={[30, 30]}>
+                {CardData.map((data, i) => (
+                  <Col xs={12} lg={6} key={i} className="cardss">
+                    <SmallCard
+                      Image={data.Image}
+                      UserImage={data.UserImage}
+                      Name={data.Name}
+                    />
+                  </Col>
+                ))}
+              </Row>
             </Col>
           </Row>
 
@@ -285,6 +309,50 @@ const Home = () => {
             <div className="custom-logo-img">
               <img src={benefit} alt="" />
             </div>
+          </div>
+        </div>
+        <div className="difbtn">
+          <div className="btn">
+            <div className="btn1">
+              <button>Get Started</button>
+            </div>
+            <div className="btn2">
+              <button>Live Chat</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="logodesign">
+          <div className="logodesigntext">
+            <h1>Appealing Logo Designs for Every Business</h1>
+            <p>Beautiful logo designs that clearly convey your message</p>
+          </div>
+
+          <div className="logodesigncards">
+            <Row gutter={[30, 30]}>
+              {logoDesignCardData?.map((data, index) => {
+                return (
+                  <Col key={index} xs={24} md={12} xl={6}>
+                    <Logodesigncard video={index === 3} data={data} />
+                  </Col>
+                );
+              })}
+            </Row>
+            {/* <div className="lgdncard">
+              <div className="lgdncardimg">
+                <img src={Modern} alt="" />
+              </div>
+              <div className="lgdncardtxt">
+                <h5>Iconic Logo Design</h5>
+                <p>
+                  Ingenuity is the key to being distinctive, and our logo design
+                  packages ensure that your business stands out right away. Our
+                  designers are skilled at producing iconic logo designs that
+                  look modern with perfect competence, transcending the
+                  restrained limitations of conventional creativity.
+                </p>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>

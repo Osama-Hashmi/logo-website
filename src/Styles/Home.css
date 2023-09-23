@@ -5,9 +5,7 @@
 }
 
 .head{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     padding-top: 10px;
 }
 
@@ -23,8 +21,13 @@
     width: 50%;
 }
 
+.difbtn{
+    padding-top: 100px;
+}
 .btn{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-right: 10px;
 }
 
@@ -76,7 +79,8 @@
 } */
 
 .crd1{
-    box-shadow: 5px 5px 5px 5px #cacaca;
+    box-shadow: 5px 5px 5px 5px #cccccc;
+    border-radius: 5px;
 }
 
 .crd1 p{
@@ -90,8 +94,8 @@
     margin-bottom: 20px;
 }
 
-.card1 img{
-    padding-right: 10px;
+.crd1 .img{
+    width: 100%;
     /* box-shadow: 5px 5px 5px 5px #cacaca; */
 
 }
@@ -174,4 +178,14 @@
 
 #cardss{
     height: 100% !important;
+}
+
+.logodesigncards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.logodesign{
+    text-align: center;
 }

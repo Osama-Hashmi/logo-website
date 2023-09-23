@@ -2,7 +2,7 @@ const SmallCard = ({Image, UserImage, Name}) => {
     return(
         // <div className="col1">
             <div className="crd1">
-              <img src={Image} alt="img" />
+              <img className="img" src={Image} alt="img" />
               <p><img src={UserImage} alt="" /> {Name}</p>
             </div>
             
