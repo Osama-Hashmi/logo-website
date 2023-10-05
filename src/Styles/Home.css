@@ -184,8 +184,30 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    font-family: "Avenir", sans-serif;
 }
 
 .logodesign{
     text-align: center;
+    font-family: "Avenir", sans-serif;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bundlepackage{
+    background-color: #ededed;
+    width: 49%;
+    border-radius: 20px;
+}
+
+.designpackage{
+    background-color: #07052c;
+    color: white;
+    width: 49%;
+    border-radius: 20px;
 }

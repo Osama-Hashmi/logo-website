@@ -322,7 +322,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="logodesign">
+        <div className="logodesign" >
           <div className="logodesigntext">
             <h1>Appealing Logo Designs for Every Business</h1>
             <p>Beautiful logo designs that clearly convey your message</p>
@@ -355,6 +355,31 @@ const Home = () => {
             </div> */}
           </div>
         </div>
+
+        
+        <div className="section3">
+          <div className="container">
+            <div className="bundlepackage">
+              <div className="bundlepackagetxt">
+            <h3>Save 100s, get our bundle package today.</h3>
+            <p>Logo, website and stationery get everything designed in a pocket-friendly package.</p>
+              </div>
+            </div>
+
+            <div className="designpackage">
+              <div className="designpackagetxt">
+            <h3>Looking for a custom logo design package?</h3>
+            <p>Speak to our design consultant today – absolutely free!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
       </div>
     </div>
   );
