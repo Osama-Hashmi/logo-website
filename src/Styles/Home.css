@@ -197,17 +197,49 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .bundlepackage{
     background-color: #ededed;
     width: 49%;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.bundlepackagetxt{
+    padding-left: 20px;
+}
+
+.bundlepackage .btn1 button{
+    height: 40px;
+    width: 215px;
+    padding: 0%;
+    margin: 0;
 }
 
 .designpackage{
     background-color: #07052c;
     color: white;
     width: 49%;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.designpackagetxt{
+    padding-left: 20px;
+}
+
+.designpackageimage img{
+    padding-top: 0px;
+}
+
+.designpackage .btn1 button{
+    margin: 0;
 }

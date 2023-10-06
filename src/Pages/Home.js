@@ -27,6 +27,8 @@ import Modern from "../assets/modern1_1x.webp";
 import Modern2 from "../assets/modern2_1x.webp";
 import Modern3 from "../assets/modern3_1x.webp";
 import Modern4 from "../assets/animation-logo.mp4";
+import Bundle from "../assets/logo-side_1x.webp"
+import Design from "../assets/package-side_1x.webp"
 
 import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
@@ -363,6 +365,14 @@ const Home = () => {
               <div className="bundlepackagetxt">
             <h3>Save 100s, get our bundle package today.</h3>
             <p>Logo, website and stationery get everything designed in a pocket-friendly package.</p>
+              
+            <div className="btn1">
+                <button>View All Bundle Packages</button>
+              </div>
+              </div>
+              
+              <div className="bundlepackageimage">
+                <img src={Bundle} alt="" />
               </div>
             </div>
 
@@ -370,7 +380,15 @@ const Home = () => {
               <div className="designpackagetxt">
             <h3>Looking for a custom logo design package?</h3>
             <p>Speak to our design consultant today – absolutely free!</p>
+            <div className="btn2">
+              <button>Live Chat with Our Consultant</button>
+            </div>
+            <p>or call us at +1 (844) 213-5457</p>
               </div>
+              <div className="designpackageimage">
+                <img src={Design} alt="" />
+              </div>
+
             </div>
           </div>
         </div>
