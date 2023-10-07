@@ -84,6 +84,8 @@
     border-radius: 200px;
     padding: 10px;
     height: 55px;
+    position: sticky;
+    top: 0;
 }
 
 .bar button{

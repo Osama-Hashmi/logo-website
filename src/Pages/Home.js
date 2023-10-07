@@ -29,9 +29,28 @@ import Modern3 from "../assets/modern3_1x.webp";
 import Modern4 from "../assets/animation-logo.mp4";
 import Bundle from "../assets/logo-side_1x.webp"
 import Design from "../assets/package-side_1x.webp"
+import Kitchen from "../assets/2d-3d-mockups-03.webp"
+import Accounting7 from "../assets/accounting-07.webp"
+import Accounting09 from "../assets/accounting-09.webp"
+import Accounting07 from "../assets/accounting-07-1.webp"
+import Adtech from "../assets/advertising-agency-02.webp"
+import Mediatune from "../assets/advertising-agency-10.webp"
+import Anniversary from "../assets/anniversary-02.webp"
+import Pet from "../assets/animals-pets-05.webp"
+import Architecture from "../assets/architectural-01.webp"
+import Automotive from "../assets/automotive-05.webp"
+import Architectural from "../assets/architectural-11.webp"
+import Business from "../assets/business-consulting-14.webp"
+import Art from "../assets/art-design-15.webp"
+import Custom from "../assets/custom-side_1x.webp"
+
+
+
+
 
 import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
+import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
 
 const Home = () => {
   const CardData = [
@@ -114,6 +133,45 @@ const Home = () => {
       Text: "Brands looking to push the boundaries of conventional thinking can get the edge they are looking for via animated logos. Our animated logos are of the highest quality and are always successful in grasping the attention of the audience.",
     },
   ];
+
+  const ImpressiveLogosData = [
+    {
+      Image: Kitchen,
+    },
+    {
+      Image: Accounting7,
+    },
+    {
+      Image: Accounting09,
+    },
+    {
+      Image: Adtech,
+    },
+    {
+      Image: Anniversary,
+    },
+    {
+      Image: Pet,
+    },
+    {
+      Image: Mediatune,
+    },
+    {
+      Image: Architecture,
+    },
+    {
+      Image: Automotive,
+    },
+    {
+      Image: Architectural,
+    },
+    {
+      Image: Business,
+    },
+    {
+      Image: Art,
+    }
+  ]
 
   return (
     <div className="main">
@@ -392,9 +450,68 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
+
+        <div className="section4">
+          <div className="section4-container">
+            <div className="sec-4-txt">
+              <h1>Have a look at some of our logo designs</h1>
+              <p>We have won many awards for our impressive logos, here is why:</p>
+            </div>
+
+            <div className="sec-4-imgs">
+              <div className="ImpressiveLogos">
+
+            <Col xs={24} md={24} lg={12}>
+              <Row gutter={[30, 30]}>
+                {ImpressiveLogosData.map((data, i) => (
+                  <Col xs={12} lg={6} key={i} className="ImpressiveLogos">
+                    <ImpressiveLogos
+                      Image={data.Image}
+                      />
+                  </Col>
+                ))}
+              </Row>
+            </Col>
+                </div>
+
+            </div>
+                
+                <div className="sec-4-txt-lnk">
+                  <p>Want to see more?</p> 
+                  <a href="#">View Our Logo Portfolio</a>
+                </div>
+
+          </div>
+        </div>
+
+              <div className="impressivelogobtns">
+                <div className="btn">
+                  <div className="btn1">
+                    <button>Get Started</button>
+                  </div>
+                  <div className="btn2">
+                    <button>Live Chat</button>
+                  </div>
+                </div>
+              </div>
 
 
 
+              <div className="section5">
+                <div className="reasons">
+                  <div className="reasons-img">
+                    <img src={Custom} alt="" />
+                  </div>
+
+                  <div className="reasons-txt">
+                    <div className="reasons-txt-head">
+                      <h2>Reasons to Choose Logo Eminent</h2>
+                      <p>We offer exceptional logo design services at incredibly pocket-friendly cost. Some of the reasons we are the first choice of many small businesses include:</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
 
