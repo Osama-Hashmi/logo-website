@@ -43,6 +43,10 @@ import Architectural from "../assets/architectural-11.webp"
 import Business from "../assets/business-consulting-14.webp"
 import Art from "../assets/art-design-15.webp"
 import Custom from "../assets/custom-side_1x.webp"
+import Icon1 from "../assets/icon_designer_1x.webp"
+import Icon2 from "../assets/icons_247_1x.webp"
+import Icon3 from "../assets/icons_100_1x.webp"
+import Icon4 from "../assets/icon_guarantee_1x.webp"
 
 
 
@@ -509,6 +513,53 @@ const Home = () => {
                       <h2>Reasons to Choose Logo Eminent</h2>
                       <p>We offer exceptional logo design services at incredibly pocket-friendly cost. Some of the reasons we are the first choice of many small businesses include:</p>
                     </div>
+
+                      <div className="reasons-row">
+                        <div className="reasons-row1">                        
+                        <div className="reasons-row-img">
+                            <img src={Icon1} alt="" />
+                        </div>
+                        <div className="reasons-row-txt">
+                          <h4>Winners of Awards in Design</h4>
+                          <p>Numerous awards have been given to our logo designers for their branding and design work.</p>
+                        </div>
+                      </div>
+
+                      <div className="reasons-row1">                        
+                        <div className="reasons-row-img">
+                            <img src={Icon2} alt="" />
+                        </div>
+                        <div className="reasons-row-txt">
+                          <h4>Free 24/7 Consultancy</h4>
+                          <p>We are available to help you 24/7. For any questions or concerns, contact us.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                      <div className="reasons-row">
+                      <div className="reasons-row1">                        
+                        <div className="reasons-row-img">
+                            <img src={Icon3} alt="" />
+                        </div>
+                        <div className="reasons-row-txt">
+                          <h4>100% Satisfaction Guarantee</h4>
+                          <p>We take our work very seriously. Revisions are on us till you aren’t satisfied with your design.</p>
+                        </div>
+                      </div>
+
+                      <div className="reasons-row1">                        
+                        <div className="reasons-row-img">
+                            <img src={Icon4} alt="" />
+                        </div>
+                        <div className="reasons-row-txt">
+                          <h4>100% Money Back Guarantee</h4>
+                          <p>If you don’t like the work, which is very rare, you get all the money back!</p>
+                        </div>
+                      </div>
+                      </div>
+
+
+
                   </div>
                 </div>
               </div>
