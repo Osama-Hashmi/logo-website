@@ -565,6 +565,32 @@ const Home = () => {
               </div>
 
 
+              <div className="sec6">
+                <div className="sec6-heading">
+                    <h1>Affordable Business Logo Design Packages</h1>
+                    <p>No matter what is the size of your business, we have a package for you.</p>
+                </div>
+
+                <div className="affordable-packages">
+                  <div className="bestseller">
+                    
+                  </div>
+                  <div className="theultimate">
+
+                  </div>
+                  <div className="businessplus">
+
+                  </div>
+                </div>
+              
+              
+              
+              
+              
+              
+              </div>
+
+
 
       </div>
     </div>

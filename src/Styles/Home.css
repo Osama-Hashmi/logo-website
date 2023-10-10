@@ -336,3 +336,16 @@
     /* vertical-align: middle; */
     margin-top: 24px;
 }
+
+/* .sec6{
+
+} */
+
+.sec6-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.affordablepackages{
+    display: flex;
+}
