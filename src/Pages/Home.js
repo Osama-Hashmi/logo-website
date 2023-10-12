@@ -55,6 +55,7 @@ import Icon4 from "../assets/icon_guarantee_1x.webp"
 import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
 import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
+import AffordablePackages from "../Components/Cards/AffordablePackages";
 
 const Home = () => {
   const CardData = [
@@ -573,7 +574,11 @@ const Home = () => {
 
                 <div className="affordable-packages">
                   <div className="bestseller">
-                    
+                  <AffordablePackages
+                      Image={data.Image}
+                      UserImage={data.UserImage}
+                      Name={data.Name}
+                    />
                   </div>
                   <div className="theultimate">
 
