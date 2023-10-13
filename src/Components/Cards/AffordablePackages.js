@@ -16,7 +16,7 @@ const AffordablePackages = ({TitleImage, Heading, Subheading, Pricing, Discount,
               <li></li>
               <li></li>
               <img className="img" src={DeliverableImage} alt="img" />
-              <img className="img" src={DeliverableImage} alt="img" />
+              {/* <img className="img" src={DeliverableImage} alt="img" /> */}
               <h2>{LogoStylesHeading}</h2>
               <img className="img" src={LogoStyleImage} alt="img" />
               <li></li>
