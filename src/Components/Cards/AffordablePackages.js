@@ -1,22 +1,34 @@
-const AffordablePackages = () => {
+const AffordablePackages = ({TitleImage, Heading, Subheading, Pricing, Discount, ListHeading, ListItems, DeliverableImage, 
+  LogoStylesHeading, LogoStyleImage, LogoStyleListItem, PackageHeading, PackageListItems}) => {
     return(
 
             <div className="AffordablePackages">
-              <img className="img" src={Image} alt="img" />
-              <h1>Best Seller</h1>
-              <p>Ideal solution for beginners</p>
-              <p>$29</p> <span>$145 80% Off!</span>
-              <h3>PACKAGE INCLUDES:</h3>
-              <li>4 Logo Design Concepts</li>
-              <li>5 Revision Cycle</li>
-              <li>1 Dedicated Designer</li>
-              <li>24/7 Chat Support</li>
-              <li>Free Color Options</li>
-              <li>Free Fav Icon</li>
-              <li>Print Friendly Design</li>
+              <img className="img" src={TitleImage} alt="img" />
+              <h1>{Heading}</h1>
+              <p>{Subheading}</p>
+              <p>{Pricing}</p> <span>{Discount}</span>
+              <h3>{ListHeading}</h3>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <img className="img" src={DeliverableImage} alt="img" />
+              <img className="img" src={DeliverableImage} alt="img" />
+              <h2>{LogoStylesHeading}</h2>
+              <img className="img" src={LogoStyleImage} alt="img" />
+              <li></li>
+              <li></li>
+              <h2>{PackageHeading}</h2>
+              <li></li>
+              <li></li>
+              <div className="btn1">
+                    <button>Select Package</button>
+                  </div>
             </div>
             
-          // </div>
-    )
-}
-export default AffordablePackages;
+          )
+        }
+        export default AffordablePackages;

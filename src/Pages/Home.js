@@ -47,6 +47,13 @@ import Icon1 from "../assets/icon_designer_1x.webp"
 import Icon2 from "../assets/icons_247_1x.webp"
 import Icon3 from "../assets/icons_100_1x.webp"
 import Icon4 from "../assets/icon_guarantee_1x.webp"
+import Package1x from "../assets/package1_1x.webp"
+import ImagesIcon1x from "../assets/images-icon_1x.webp"
+import LogoStyles1x from "../assets/logo-styles_1x.webp"
+
+
+
+
 
 
 
@@ -56,6 +63,12 @@ import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
 import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
 import AffordablePackages from "../Components/Cards/AffordablePackages";
+import Item from "antd/es/list/Item";
+
+
+
+
+
 
 const Home = () => {
   const CardData = [
@@ -176,6 +189,25 @@ const Home = () => {
     {
       Image: Art,
     }
+  ]
+
+  const AffordablePackageslist = [
+    {
+    TitleImage:  Package1x,
+    Heading: "Best Seller", 
+    Subheading: "Ideal solution for beginners", 
+    Pricing: "$29", 
+    Discount: "$145 80% Off!",
+    ListHeading: "PACKAGE INCLUDES:", 
+    ListItems: ["4 Logo Design Concepts", "5 Revision Cycle", "1 Dedicated Designer", "24/7 Chat Support", "Free Color Options",
+    "Free Fav Icon", "Print Friendly Design"],
+    DeliverableImage: ImagesIcon1x, 
+    LogoStylesHeading: "Logo Styles Included:", 
+    LogoStyleImage: LogoStyles1x, 
+    LogoStyleListItem: ["Wordmark/Logotype", "Signature/Script"],
+    PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
+    PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
+    },
   ]
 
   return (
@@ -574,17 +606,73 @@ const Home = () => {
 
                 <div className="affordable-packages">
                   <div className="bestseller">
-                  <AffordablePackages
-                      Image={data.Image}
-                      UserImage={data.UserImage}
-                      Name={data.Name}
-                    />
+                  {AffordablePackageslist?.map((Item,index)=>{
+                      return(
+                        <Col key={0} xs={24} md={12} xl={6}>
+                        <AffordablePackages
+                        TitleImage={Item.TitleImage} 
+                        Heading={Item.Heading}
+                        Subheading={Item.Subheading} 
+                        Pricing={Item.Pricing} 
+                        Discount={Item.Discount}
+                        ListHeading={Item.ListHeading} 
+                        ListItems={Item.ListItems} 
+                        DeliverableImage={Item.DeliverableImage} 
+                        LogoStylesHeading={Item.LogoStylesHeading} 
+                        LogoStyleImage={Item.LogoStyleImage} 
+                        LogoStyleListItem={Item.LogoStyleListItem} 
+                        PackageHeading={Item.PackageHeading}
+                        PackageListItems={Item.PackageListItems}  
+                        />
+                        </Col>
+                       )
+                      })}
                   </div>
                   <div className="theultimate">
-
+                  {AffordablePackageslist?.map((Item,index)=>{
+                      return(
+                        <Col key={0} xs={24} md={12} xl={6}>
+                        <AffordablePackages
+                        TitleImage={Item.TitleImage} 
+                        Heading={Item.Heading}
+                        Subheading={Item.Subheading} 
+                        Pricing={Item.Pricing} 
+                        Discount={Item.Discount}
+                        ListHeading={Item.ListHeading} 
+                        ListItems={Item.ListItems} 
+                        DeliverableImage={Item.DeliverableImage} 
+                        LogoStylesHeading={Item.LogoStylesHeading} 
+                        LogoStyleImage={Item.LogoStyleImage} 
+                        LogoStyleListItem={Item.LogoStyleListItem} 
+                        PackageHeading={Item.PackageHeading}
+                        PackageListItems={Item.PackageListItems}  
+                        />
+                        </Col>
+                       )
+                      })}
                   </div>
                   <div className="businessplus">
-
+                  {AffordablePackageslist?.map((Item,index)=>{
+                      return(
+                        <Col key={0} xs={24} md={12} xl={6}>
+                        <AffordablePackages
+                        TitleImage={Item.TitleImage} 
+                        Heading={Item.Heading}
+                        Subheading={Item.Subheading} 
+                        Pricing={Item.Pricing} 
+                        Discount={Item.Discount}
+                        ListHeading={Item.ListHeading} 
+                        ListItems={Item.ListItems} 
+                        DeliverableImage={Item.DeliverableImage} 
+                        LogoStylesHeading={Item.LogoStylesHeading} 
+                        LogoStyleImage={Item.LogoStyleImage} 
+                        LogoStyleListItem={Item.LogoStyleListItem} 
+                        PackageHeading={Item.PackageHeading}
+                        PackageListItems={Item.PackageListItems}  
+                        />
+                        </Col>
+                       )
+                      })}
                   </div>
                 </div>
               
