@@ -350,31 +350,82 @@
 }
 
 .affordable-packages{
-    width: 100%;
+    width: 93%;
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    /* margin: 20px; */
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
     /* padding-left: 10px; */
+    height: 1111px;
 }
 
 .bestseller{
     background-color: #f4f2f1;
-    width: 450px;
+    width: 416px;
     margin: 0;
     margin-right: 0 !important; 
-    padding-left: 20px;
+    padding-top: 10px;
+    /* padding-left: 20px; */
 }
 
-.theultimate{
+.bestseller ul{
+    padding-left: 20px;
+    /* margin-bottom: 8px; */
+}
+
+.affordable-packages .btn1{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .theultimate{
     background-color: #f4f2f1;
-    width: 450px;
+    width: 416px;
     margin: 0;
     margin-right: 0 !important; 
 }
 
 .businessplus{
     background-color: #f4f2f1;
-    width: 450px;
+    width: 416px;
     margin: 0;
     margin-right: 0 !important; 
+} */
+
+.package-detail{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.AffordablePackages .Pricing{
+    font-family: "Avenir Next", sans-serif;
+    font-size: 50px;
+    color: #3555c7;
+    font-weight: bolder;
+}
+
+.AffordablePackages .pricing-Span{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 10px; */
+    height: 60px;
+}
+
+.AffordablePackages .pricing-Span .discount-span{
+    background-color: white;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 4px 12px;
+    margin-left: 12px;
+    color: #000000;
+    outline: none !important;
+    box-sizing: border-box;
+    --bs-gutter-y: 3rem;
 }

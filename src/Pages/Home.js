@@ -50,8 +50,9 @@ import Icon4 from "../assets/icon_guarantee_1x.webp"
 import Package1x from "../assets/package1_1x.webp"
 import ImagesIcon1x from "../assets/images-icon_1x.webp"
 import LogoStyles1x from "../assets/logo-styles_1x.webp"
-
-
+import Tend from "../assets/package2_1x.webp"
+import Melt from "../assets/package3_1x.webp"
+import ImagesIconAll_1x from "../assets/images-icon-all_1x.webp"
 
 
 
@@ -208,6 +209,41 @@ const Home = () => {
     PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
     PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
     },
+
+    {
+    TitleImage:  Tend,
+    Heading: "The Ultimate", 
+    Subheading: "Startup-friendly design package", 
+    Pricing: "$69", 
+    Discount: "$345 80% Off!",
+    ListHeading: "PACKAGE INCLUDES:", 
+    ListItems: ["6 Logo Design Concepts", "Unlimited Revisions", "2 Dedicated Designers", "Free Color Options", 
+    "Free Grayscale Format", "Free Icon", "24 To 48 Hours TAT", "Print Friendly Design"],
+    DeliverableImage: ImagesIcon1x, 
+    LogoStylesHeading: "Logo Styles Included:", 
+    LogoStyleImage: LogoStyles1x, 
+    LogoStyleListItem: ["Wordmark/Logotype, Brandmark,", "Lettermark, Emblem"],
+    PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
+    PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
+    },
+
+    {
+      TitleImage:  Melt,
+      Heading: "The Ultimate", 
+      Subheading: "Startup-friendly design package", 
+      Pricing: "$99", 
+      Discount: "$495 80% Off!",
+      ListHeading: "PACKAGE INCLUDES:", 
+      ListItems: ["8 Logo Design Concepts", "Unlimited Revisions", "3 Dedicated Designers", 
+      "Free Stationery Design (Business Card, Letterhead, Envelope)", "Free Icon", "Free Color Options", "Free Grayscale Format",
+      "24 To 48 Hours TAT", "$50 Off On Website Order", "All File Formats (Ai, PSD, EPS, PNG, JPG, PDF)"],
+      DeliverableImage: ImagesIconAll_1x, 
+      LogoStylesHeading: "Logo Styles Included:", 
+      LogoStyleImage: LogoStyles1x, 
+      LogoStyleListItem: ["Wordmark/Logotype", "Signature/Script"],
+      PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
+      PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
+      },
   ]
 
   return (
@@ -605,10 +641,10 @@ const Home = () => {
                 </div>
 
                 <div className="affordable-packages">
-                  <div className="bestseller">
                   {AffordablePackageslist?.map((Item,index)=>{
-                      return(
-                        <Col key={0} xs={24} md={12} xl={6}>
+                    return(
+                      <Col key={0} xs={24} md={12} xl={6}>
+                          <div className="bestseller">
                         <AffordablePackages
                         TitleImage={Item.TitleImage} 
                         Heading={Item.Heading}
@@ -624,56 +660,12 @@ const Home = () => {
                         PackageHeading={Item.PackageHeading}
                         PackageListItems={Item.PackageListItems}  
                         />
+                  </div>
                         </Col>
                        )
                       })}
-                  </div>
-                  <div className="theultimate">
-                  {AffordablePackageslist?.map((Item,index)=>{
-                      return(
-                        <Col key={0} xs={24} md={12} xl={6}>
-                        <AffordablePackages
-                        TitleImage={Item.TitleImage} 
-                        Heading={Item.Heading}
-                        Subheading={Item.Subheading} 
-                        Pricing={Item.Pricing} 
-                        Discount={Item.Discount}
-                        ListHeading={Item.ListHeading} 
-                        ListItems={Item.ListItems} 
-                        DeliverableImage={Item.DeliverableImage} 
-                        LogoStylesHeading={Item.LogoStylesHeading} 
-                        LogoStyleImage={Item.LogoStyleImage} 
-                        LogoStyleListItem={Item.LogoStyleListItem} 
-                        PackageHeading={Item.PackageHeading}
-                        PackageListItems={Item.PackageListItems}  
-                        />
-                        </Col>
-                       )
-                      })}
-                  </div>
-                  <div className="businessplus">
-                  {AffordablePackageslist?.map((Item,index)=>{
-                      return(
-                        <Col key={0} xs={24} md={12} xl={6}>
-                        <AffordablePackages
-                        TitleImage={Item.TitleImage} 
-                        Heading={Item.Heading}
-                        Subheading={Item.Subheading} 
-                        Pricing={Item.Pricing} 
-                        Discount={Item.Discount}
-                        ListHeading={Item.ListHeading} 
-                        ListItems={Item.ListItems} 
-                        DeliverableImage={Item.DeliverableImage} 
-                        LogoStylesHeading={Item.LogoStylesHeading} 
-                        LogoStyleImage={Item.LogoStyleImage} 
-                        LogoStyleListItem={Item.LogoStyleListItem} 
-                        PackageHeading={Item.PackageHeading}
-                        PackageListItems={Item.PackageListItems}  
-                        />
-                        </Col>
-                       )
-                      })}
-                  </div>
+
+
                 </div>
               
               
