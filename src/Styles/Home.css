@@ -450,3 +450,93 @@
     box-sizing: border-box;
     --bs-gutter-y: 3rem;
 }
+
+.sec7 .impressivelogobtns{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0%;
+}
+
+.sec7{
+    background: black url(../assets/all-in-one-bg.png);
+    border-radius: 48px 48px 0 0;
+    color: white;
+    background-size: cover;
+    padding: 20px;
+    height: 600px;
+    /* margin: 50px; */
+}
+
+.sec7-text{
+    margin-left: 20px;
+}
+
+.sec7-text h1{
+    font-size: 38px;
+    color: #36A8C8;
+}
+
+.sec7-text p{
+    font-size: 16px;
+    line-height: 1.75rem;
+}
+
+.sec7 .container-Sec7{
+    display: flex;
+}
+
+.sec7 .sec7-image img{
+    width: 722.656px;
+    height: 476.125px;
+    margin-top: 70px;
+}
+
+.sec7-contactus{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.sec7-contactus a{
+    color: white;
+}
+
+.sec7-pricingSpan{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sec7-pricingSpan p{
+    font-size: 56px;
+    color: #36A8C8;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.sec7-pricingSpan .discount-span{
+    background-color: white;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 4px 12px;
+    margin-left: 12px;
+    color: #000000;
+    outline: none !important;
+    box-sizing: border-box;
+    --bs-gutter-y: 3rem;
+    font-family: "Avenir", sans-serif;
+}
+
+.sec7-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    line-height: 1.75rem;
+
+}

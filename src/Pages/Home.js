@@ -27,36 +27,34 @@ import Modern from "../assets/modern1_1x.webp";
 import Modern2 from "../assets/modern2_1x.webp";
 import Modern3 from "../assets/modern3_1x.webp";
 import Modern4 from "../assets/animation-logo.mp4";
-import Bundle from "../assets/logo-side_1x.webp"
-import Design from "../assets/package-side_1x.webp"
-import Kitchen from "../assets/2d-3d-mockups-03.webp"
-import Accounting7 from "../assets/accounting-07.webp"
-import Accounting09 from "../assets/accounting-09.webp"
+import Bundle from "../assets/logo-side_1x.webp";
+import Design from "../assets/package-side_1x.webp";
+import Kitchen from "../assets/2d-3d-mockups-03.webp";
+import Accounting7 from "../assets/accounting-07.webp";
+import Accounting09 from "../assets/accounting-09.webp";
 // import Accounting07 from "../assets/accounting-07-1.webp"
-import Adtech from "../assets/advertising-agency-02.webp"
-import Mediatune from "../assets/advertising-agency-10.webp"
-import Anniversary from "../assets/anniversary-02.webp"
-import Pet from "../assets/animals-pets-05.webp"
-import Architecture from "../assets/architectural-01.webp"
-import Automotive from "../assets/automotive-05.webp"
-import Architectural from "../assets/architectural-11.webp"
-import Business from "../assets/business-consulting-14.webp"
-import Art from "../assets/art-design-15.webp"
-import Custom from "../assets/custom-side_1x.webp"
-import Icon1 from "../assets/icon_designer_1x.webp"
-import Icon2 from "../assets/icons_247_1x.webp"
-import Icon3 from "../assets/icons_100_1x.webp"
-import Icon4 from "../assets/icon_guarantee_1x.webp"
-import Package1x from "../assets/package1_1x.webp"
-import ImagesIcon1x from "../assets/images-icon_1x.webp"
-import LogoStyles1x from "../assets/logo-styles_1x.webp"
-import Tend from "../assets/package2_1x.webp"
-import Melt from "../assets/package3_1x.webp"
-import ImagesIconAll_1x from "../assets/images-icon-all_1x.webp"
-
-
-
-
+import Adtech from "../assets/advertising-agency-02.webp";
+import Mediatune from "../assets/advertising-agency-10.webp";
+import Anniversary from "../assets/anniversary-02.webp";
+import Pet from "../assets/animals-pets-05.webp";
+import Architecture from "../assets/architectural-01.webp";
+import Automotive from "../assets/automotive-05.webp";
+import Architectural from "../assets/architectural-11.webp";
+import Business from "../assets/business-consulting-14.webp";
+import Art from "../assets/art-design-15.webp";
+import Custom from "../assets/custom-side_1x.webp";
+import Icon1 from "../assets/icon_designer_1x.webp";
+import Icon2 from "../assets/icons_247_1x.webp";
+import Icon3 from "../assets/icons_100_1x.webp";
+import Icon4 from "../assets/icon_guarantee_1x.webp";
+import Package1x from "../assets/package1_1x.webp";
+import ImagesIcon1x from "../assets/images-icon_1x.webp";
+import LogoStyles1x from "../assets/logo-styles_1x.webp";
+import Tend from "../assets/package2_1x.webp";
+import Melt from "../assets/package3_1x.webp";
+import ImagesIconAll_1x from "../assets/images-icon-all_1x.webp";
+import allInOne_1x from "../assets/all-in-one_1x.webp"
+import CallIcon from "../assets/icon_call-light.svg"
 
 
 
@@ -65,11 +63,6 @@ import Logodesigncard from "../Components/Cards/Logodesigncard";
 import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
 import AffordablePackages from "../Components/Cards/AffordablePackages";
 import Item from "antd/es/list/Item";
-
-
-
-
-
 
 const Home = () => {
   const CardData = [
@@ -189,62 +182,89 @@ const Home = () => {
     },
     {
       Image: Art,
-    }
-  ]
+    },
+  ];
 
   const AffordablePackageslist = [
     {
-    TitleImage:  Package1x,
-    Heading: "Best Seller", 
-    Subheading: "Ideal solution for beginners", 
-    Pricing: "$29", 
-    Discount: "$145 80% Off!",
-    ListHeading: "PACKAGE INCLUDES:", 
-    ListItems: ["4 Logo Design Concepts", "5 Revision Cycle", "1 Dedicated Designer", "24/7 Chat Support", "Free Color Options",
-    "Free Fav Icon", "Print Friendly Design"],
-    DeliverableImage: ImagesIcon1x, 
-    LogoStylesHeading: "Logo Styles Included:", 
-    LogoStyleImage: LogoStyles1x, 
-    LogoStyleListItem: ["Wordmark/Logotype", "Signature/Script"],
-    PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
-    PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
-    },
-
-    {
-    TitleImage:  Tend,
-    Heading: "The Ultimate", 
-    Subheading: "Startup-friendly design package", 
-    Pricing: "$69", 
-    Discount: "$345 80% Off!",
-    ListHeading: "PACKAGE INCLUDES:", 
-    ListItems: ["6 Logo Design Concepts", "Unlimited Revisions", "2 Dedicated Designers", "Free Color Options", 
-    "Free Grayscale Format", "Free Icon", "24 To 48 Hours TAT", "Print Friendly Design"],
-    DeliverableImage: ImagesIcon1x, 
-    LogoStylesHeading: "Logo Styles Included:", 
-    LogoStyleImage: LogoStyles1x, 
-    LogoStyleListItem: ["Wordmark/Logotype, Brandmark,", "Lettermark, Emblem"],
-    PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
-    PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
-    },
-
-    {
-      TitleImage:  Melt,
-      Heading: "The Ultimate", 
-      Subheading: "Startup-friendly design package", 
-      Pricing: "$99", 
-      Discount: "$495 80% Off!",
-      ListHeading: "PACKAGE INCLUDES:", 
-      ListItems: ["8 Logo Design Concepts", "Unlimited Revisions", "3 Dedicated Designers", 
-      "Free Stationery Design (Business Card, Letterhead, Envelope)", "Free Icon", "Free Color Options", "Free Grayscale Format",
-      "24 To 48 Hours TAT", "$50 Off On Website Order", "All File Formats (Ai, PSD, EPS, PNG, JPG, PDF)"],
-      DeliverableImage: ImagesIconAll_1x, 
-      LogoStylesHeading: "Logo Styles Included:", 
-      LogoStyleImage: LogoStyles1x, 
+      TitleImage: Package1x,
+      Heading: "Best Seller",
+      Subheading: "Ideal solution for beginners",
+      Pricing: "$29",
+      Discount: ["$145" , "80% Off!"],
+      ListHeading: "PACKAGE INCLUDES:",
+      ListItems: [
+        "4 Logo Design Concepts",
+        "5 Revision Cycle",
+        "1 Dedicated Designer",
+        "24/7 Chat Support",
+        "Free Color Options",
+        "Free Fav Icon",
+        "Print Friendly Design",
+      ],
+      DeliverableImage: ImagesIcon1x,
+      LogoStylesHeading: "Logo Styles Included:",
+      LogoStyleImage: LogoStyles1x,
       LogoStyleListItem: ["Wordmark/Logotype", "Signature/Script"],
       PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
       PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
-      },
-  ]
+    },
+
+    {
+      TitleImage: Tend,
+      Heading: "The Ultimate",
+      Subheading: "Startup-friendly design package",
+      Pricing: "$69",
+      Discount: ["$345" , "80% Off!"],
+      ListHeading: "PACKAGE INCLUDES:",
+      ListItems: [
+        "6 Logo Design Concepts",
+        "Unlimited Revisions",
+        "2 Dedicated Designers",
+        "Free Color Options",
+        "Free Grayscale Format",
+        "Free Icon",
+        "24 To 48 Hours TAT",
+        "Print Friendly Design",
+      ],
+      DeliverableImage: ImagesIcon1x,
+      LogoStylesHeading: "Logo Styles Included:",
+      LogoStyleImage: LogoStyles1x,
+      LogoStyleListItem: [
+        "Wordmark/Logotype, Brandmark,",
+        "Lettermark, Emblem",
+      ],
+      PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
+      PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
+    },
+
+    {
+      TitleImage: Melt,
+      Heading: "The Ultimate",
+      Subheading: "Startup-friendly design package",
+      Pricing: "$99",
+      Discount: ["$495" , "80% Off!"],
+      ListHeading: "PACKAGE INCLUDES:",
+      ListItems: [
+        "8 Logo Design Concepts",
+        "Unlimited Revisions",
+        "3 Dedicated Designers",
+        "Free Stationery Design (Business Card, Letterhead, Envelope)",
+        "Free Icon",
+        "Free Color Options",
+        "Free Grayscale Format",
+        "24 To 48 Hours TAT",
+        "$50 Off On Website Order",
+        "All File Formats (Ai, PSD, EPS, PNG, JPG, PDF)",
+      ],
+      DeliverableImage: ImagesIconAll_1x,
+      LogoStylesHeading: "Logo Styles Included:",
+      LogoStyleImage: LogoStyles1x,
+      LogoStyleListItem: ["Wordmark/Logotype", "Signature/Script"],
+      PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
+      PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
+    },
+  ];
 
   return (
     <div className="main">
@@ -455,7 +475,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="logodesign" >
+        <div className="logodesign">
           <div className="logodesigntext">
             <h1>Appealing Logo Designs for Every Business</h1>
             <p>Beautiful logo designs that clearly convey your message</p>
@@ -489,19 +509,21 @@ const Home = () => {
           </div>
         </div>
 
-        
         <div className="section3">
           <div className="container">
             <div className="bundlepackage">
               <div className="bundlepackagetxt">
-            <h3>Save 100s, get our bundle package today.</h3>
-            <p>Logo, website and stationery get everything designed in a pocket-friendly package.</p>
-              
-            <div className="btn1">
-                <button>View All Bundle Packages</button>
+                <h3>Save 100s, get our bundle package today.</h3>
+                <p>
+                  Logo, website and stationery get everything designed in a
+                  pocket-friendly package.
+                </p>
+
+                <div className="btn1">
+                  <button>View All Bundle Packages</button>
+                </div>
               </div>
-              </div>
-              
+
               <div className="bundlepackageimage">
                 <img src={Bundle} alt="" />
               </div>
@@ -509,176 +531,232 @@ const Home = () => {
 
             <div className="designpackage">
               <div className="designpackagetxt">
-            <h3>Looking for a custom logo design package?</h3>
-            <p>Speak to our design consultant today – absolutely free!</p>
-            <div className="btn2">
-              <button>Live Chat with Our Consultant</button>
-            </div>
-            <p>or call us at +1 (844) 213-5457</p>
+                <h3>Looking for a custom logo design package?</h3>
+                <p>Speak to our design consultant today – absolutely free!</p>
+                <div className="btn2">
+                  <button>Live Chat with Our Consultant</button>
+                </div>
+                <p>or call us at +1 (844) 213-5457</p>
               </div>
               <div className="designpackageimage">
                 <img src={Design} alt="" />
               </div>
-
             </div>
           </div>
         </div>
-        
 
         <div className="section4">
           <div className="section4-container">
             <div className="sec-4-txt">
               <h1>Have a look at some of our logo designs</h1>
-              <p>We have won many awards for our impressive logos, here is why:</p>
+              <p>
+                We have won many awards for our impressive logos, here is why:
+              </p>
             </div>
 
             <div className="sec-4-imgs">
               <div className="ImpressiveLogos">
-
-            <Col xs={24} md={24} lg={12}>
-              <Row gutter={[30, 30]}>
-                {ImpressiveLogosData.map((data, i) => (
-                  <Col xs={12} lg={6} key={i} className="ImpressiveLogos">
-                    <ImpressiveLogos
-                      Image={data.Image}
-                      />
-                  </Col>
-                ))}
-              </Row>
-            </Col>
-                </div>
-
+                <Col xs={24} md={24} lg={12}>
+                  <Row gutter={[30, 30]}>
+                    {ImpressiveLogosData.map((data, i) => (
+                      <Col xs={12} lg={6} key={i} className="ImpressiveLogos">
+                        <ImpressiveLogos Image={data.Image} />
+                      </Col>
+                    ))}
+                  </Row>
+                </Col>
+              </div>
             </div>
-                
-                <div className="sec-4-txt-lnk">
-                  <p>Want to see more?</p> 
-                  <a href="#">View Our Logo Portfolio</a>
-                </div>
 
+            <div className="sec-4-txt-lnk">
+              <p>Want to see more?</p>
+              <a href="#">View Our Logo Portfolio</a>
+            </div>
           </div>
         </div>
 
-              <div className="impressivelogobtns">
-                <div className="btn">
-                  <div className="btn1">
-                    <button>Get Started</button>
+        <div className="impressivelogobtns">
+          <div className="btn">
+            <div className="btn1">
+              <button>Get Started</button>
+            </div>
+            <div className="btn2">
+              <button>Live Chat</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="section5">
+          <div className="reasons">
+            <div className="reasons-img">
+              <img src={Custom} alt="" />
+            </div>
+
+            <div className="reasons-txt">
+              <div className="reasons-txt-head">
+                <h2>Reasons to Choose Logo Eminent</h2>
+                <p>
+                  We offer exceptional logo design services at incredibly
+                  pocket-friendly cost. Some of the reasons we are the first
+                  choice of many small businesses include:
+                </p>
+              </div>
+
+              <div className="reasons-row">
+                <div className="reasons-row1">
+                  <div className="reasons-row-img">
+                    <img src={Icon1} alt="" />
                   </div>
-                  <div className="btn2">
-                    <button>Live Chat</button>
+                  <div className="reasons-row-txt">
+                    <h4>Winners of Awards in Design</h4>
+                    <p>
+                      Numerous awards have been given to our logo designers for
+                      their branding and design work.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="reasons-row1">
+                  <div className="reasons-row-img">
+                    <img src={Icon2} alt="" />
+                  </div>
+                  <div className="reasons-row-txt">
+                    <h4>Free 24/7 Consultancy</h4>
+                    <p>
+                      We are available to help you 24/7. For any questions or
+                      concerns, contact us.
+                    </p>
                   </div>
                 </div>
               </div>
 
-
-
-              <div className="section5">
-                <div className="reasons">
-                  <div className="reasons-img">
-                    <img src={Custom} alt="" />
+              <div className="reasons-row">
+                <div className="reasons-row1">
+                  <div className="reasons-row-img">
+                    <img src={Icon3} alt="" />
                   </div>
+                  <div className="reasons-row-txt">
+                    <h4>100% Satisfaction Guarantee</h4>
+                    <p>
+                      We take our work very seriously. Revisions are on us till
+                      you aren’t satisfied with your design.
+                    </p>
+                  </div>
+                </div>
 
-                  <div className="reasons-txt">
-                    <div className="reasons-txt-head">
-                      <h2>Reasons to Choose Logo Eminent</h2>
-                      <p>We offer exceptional logo design services at incredibly pocket-friendly cost. Some of the reasons we are the first choice of many small businesses include:</p>
-                    </div>
-
-                      <div className="reasons-row">
-                        <div className="reasons-row1">                        
-                        <div className="reasons-row-img">
-                            <img src={Icon1} alt="" />
-                        </div>
-                        <div className="reasons-row-txt">
-                          <h4>Winners of Awards in Design</h4>
-                          <p>Numerous awards have been given to our logo designers for their branding and design work.</p>
-                        </div>
-                      </div>
-
-                      <div className="reasons-row1">                        
-                        <div className="reasons-row-img">
-                            <img src={Icon2} alt="" />
-                        </div>
-                        <div className="reasons-row-txt">
-                          <h4>Free 24/7 Consultancy</h4>
-                          <p>We are available to help you 24/7. For any questions or concerns, contact us.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                      <div className="reasons-row">
-                      <div className="reasons-row1">                        
-                        <div className="reasons-row-img">
-                            <img src={Icon3} alt="" />
-                        </div>
-                        <div className="reasons-row-txt">
-                          <h4>100% Satisfaction Guarantee</h4>
-                          <p>We take our work very seriously. Revisions are on us till you aren’t satisfied with your design.</p>
-                        </div>
-                      </div>
-
-                      <div className="reasons-row1">                        
-                        <div className="reasons-row-img">
-                            <img src={Icon4} alt="" />
-                        </div>
-                        <div className="reasons-row-txt">
-                          <h4>100% Money Back Guarantee</h4>
-                          <p>If you don’t like the work, which is very rare, you get all the money back!</p>
-                        </div>
-                      </div>
-                      </div>
-
-
-
+                <div className="reasons-row1">
+                  <div className="reasons-row-img">
+                    <img src={Icon4} alt="" />
+                  </div>
+                  <div className="reasons-row-txt">
+                    <h4>100% Money Back Guarantee</h4>
+                    <p>
+                      If you don’t like the work, which is very rare, you get
+                      all the money back!
+                    </p>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
 
+        <div className="sec6">
+          <div className="sec6-heading">
+            <h1>Affordable Business Logo Design Packages</h1>
+            <p>
+              No matter what is the size of your business, we have a package for
+              you.
+            </p>
+          </div>
 
-              <div className="sec6">
-                <div className="sec6-heading">
-                    <h1>Affordable Business Logo Design Packages</h1>
-                    <p>No matter what is the size of your business, we have a package for you.</p>
-                </div>
-
-                <div className="affordable-packages">
-                  {AffordablePackageslist?.map((Item,index)=>{
-                    return(
-                      <Col key={0} xs={24} md={12} xl={6}>
-                          <div className="bestseller">
-                        <AffordablePackages
-                        TitleImage={Item.TitleImage} 
-                        Heading={Item.Heading}
-                        Subheading={Item.Subheading} 
-                        Pricing={Item.Pricing} 
-                        Discount={Item.Discount}
-                        ListHeading={Item.ListHeading} 
-                        ListItems={Item.ListItems} 
-                        DeliverableImage={Item.DeliverableImage} 
-                        LogoStylesHeading={Item.LogoStylesHeading} 
-                        LogoStyleImage={Item.LogoStyleImage} 
-                        LogoStyleListItem={Item.LogoStyleListItem} 
-                        PackageHeading={Item.PackageHeading}
-                        PackageListItems={Item.PackageListItems}  
-                        />
+          <div className="affordable-packages">
+            {AffordablePackageslist?.map((Item, index) => {
+              return (
+                <Col key={0} xs={24} md={12} xl={6}>
+                  <div className="bestseller">
+                    <AffordablePackages
+                      TitleImage={Item.TitleImage}
+                      Heading={Item.Heading}
+                      Subheading={Item.Subheading}
+                      Pricing={Item.Pricing}
+                      Discount={Item.Discount}
+                      ListHeading={Item.ListHeading}
+                      ListItems={Item.ListItems}
+                      DeliverableImage={Item.DeliverableImage}
+                      LogoStylesHeading={Item.LogoStylesHeading}
+                      LogoStyleImage={Item.LogoStyleImage}
+                      LogoStyleListItem={Item.LogoStyleListItem}
+                      PackageHeading={Item.PackageHeading}
+                      PackageListItems={Item.PackageListItems}
+                    />
                   </div>
-                        </Col>
-                       )
-                      })}
+                </Col>
+              );
+            })}
+          </div>
+        </div>
 
+        <div className="sec7">
+          <div className="container-Sec7">
+            <div className="sec7-text">
+              <h1>The All-In-One Branding Solution</h1>
+              <p>
+                Are you starting a new brand or revamping your current brand?
+                Our All-In-One branding package has all essentials you would
+                need to run your business smoothly. From logo, to website and
+                social media to website banners, we will provide you with
+                bespoke designs, enabling you to kickstart your brand’s digital
+                presence on all platforms.
+              </p>
+            
+              <div className="sec7-list">
+              <div className="sec7-listfirst">
+              <li>Logo Design</li>
+              <li>Stationery Design</li>
+              <li>Website Design</li>
+              </div>
 
-                </div>
-              
-              
-              
-              
-              
+              <div className="sec7-listlast">
+              <li>Banner Design</li>
+              <li>Social Media Design</li>
+              <li>Special Features</li>
+              </div>
               
               </div>
 
-              
-              <div className="sec7">
-                
-              </div>
+            <div className="sec7-pricingSpan">
+              <p>$1599</p> <span className="discount-span"><del>$7995</del> Save 80% off!</span>
+            </div>
+
+            <div className="impressivelogobtns">
+          <div className="btn">
+            <div className="btn1">
+              <button>Select Package</button>
+            </div>
+            <div className="btn2">
+              <button>Live Chat With Our Consultant</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="sec7-contactus">
+          <p>or call us at</p>
+          <img src={CallIcon} alt="" />
+          <a href="">+1 (844) 213-5457</a>
+        </div>
+
+            </div>
+            
+            <div className="sec7-image">
+                <img src={allInOne_1x} alt="" />
+            </div>
+          </div>
+        </div>
+
+
+
+
 
       </div>
     </div>

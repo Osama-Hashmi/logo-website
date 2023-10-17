@@ -18,13 +18,11 @@ const Navbar = () => {
     </div> */}
 
         <div className="list">
-          <ul>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Reviews</li>
-            {/* <li>Table</li>  */}
-          </ul>
+          <a href="">About</a>
+          <a href="">Contact</a>
+          <a href="">Reviews( 4.9 Stars)</a>
         </div>
+
         <div className="links">
           <div className="chat">
             <img src={Chat} alt="Chat icon" />

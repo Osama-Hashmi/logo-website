@@ -10,7 +10,7 @@ const AffordablePackages = ({TitleImage, Heading, Subheading, Pricing, Discount,
               <h1>{Heading}</h1>
               <p>{Subheading}</p>
               <div className="pricing-Span">
-              <p className="Pricing">{Pricing}</p> <span className="discount-span">{Discount}</span>
+              <p className="Pricing">{Pricing}</p> <span className="discount-span"><del>{Discount[0]}</del>&nbsp;{Discount[1]}</span>
               </div>
               <h3>{ListHeading}</h3>
               <ul>
