@@ -675,7 +675,10 @@ const Home = () => {
               
               </div>
 
-
+              
+              <div className="sec7">
+                
+              </div>
 
       </div>
     </div>

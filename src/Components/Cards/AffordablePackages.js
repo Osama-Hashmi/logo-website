@@ -1,3 +1,5 @@
+import { CheckCircleOutlined } from "@ant-design/icons"
+
 const AffordablePackages = ({TitleImage, Heading, Subheading, Pricing, Discount, ListHeading, ListItems, DeliverableImage, 
   LogoStylesHeading, LogoStyleImage, LogoStyleListItem, PackageHeading, PackageListItems}) => {
     return(
@@ -15,18 +17,21 @@ const AffordablePackages = ({TitleImage, Heading, Subheading, Pricing, Discount,
 
               {ListItems.map((Item)=>{
                 
-                return(<li>{Item}</li>)
+                return(<li><CheckCircleOutlined style={{marginRight: "10px", color: "#3957c1"}} />{Item}</li>)
               })}
               </ul>
               <img className="img" src={DeliverableImage} alt="img" />
               {/* <img className="img" src={DeliverableImage} alt="img" /> */}
+              <div className="logoStylesHeadingSpan">
+
               <h2>{LogoStylesHeading}</h2>
+              </div>
               <img className="img" src={LogoStyleImage} alt="img" />
               <ul>
 
               {LogoStyleListItem.map((Item)=>{
                 
-                return(<li>{Item}</li>)
+                return(<li><CheckCircleOutlined style={{marginRight: "10px", color: "#3957c1"}} />{Item}</li>)
               })}
               </ul>
               <h2>{PackageHeading}</h2>
@@ -34,7 +39,7 @@ const AffordablePackages = ({TitleImage, Heading, Subheading, Pricing, Discount,
 
               {PackageListItems.map((Item)=>{
                 
-                return(<li>{Item}</li>)
+                return(<li><CheckCircleOutlined style={{marginRight: "10px", color: "#3957c1"}} />{Item}</li>)
               })}
               </ul>
               </div>
