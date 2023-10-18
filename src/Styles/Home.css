@@ -463,8 +463,8 @@
     color: white;
     background-size: cover;
     padding: 20px;
-    height: 600px;
-    /* margin: 50px; */
+    height: 530px;
+    margin-bottom: 50px;
 }
 
 .sec7-text{
@@ -539,4 +539,83 @@
     margin-bottom: 20px;
     line-height: 1.75rem;
 
+}
+
+.container-sec8{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container-left{
+    width: 50%;
+}
+
+.container-right{
+    width: 50%;
+}
+
+.container-left h1{
+    color: #3555C7;
+}
+
+.container-left .sec-8-list .first span{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    font-size: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    background-color: #36A8C8;
+}
+
+.container-left .sec-8-list .middle span{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    font-size: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    background-color:#FFEFC0;
+}
+
+.container-left .sec-8-list .last span{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    font-size: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    background-color:#FFABB0;
+}
+
+.container-left .sec-8-list .first{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.container-left .sec-8-list .middle{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.container-left .sec-8-list .last{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.container-left .sec-8-list ul{
+    padding-left: 0;
+}
+
+.container-left a{
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000000;
 }

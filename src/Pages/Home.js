@@ -53,8 +53,10 @@ import LogoStyles1x from "../assets/logo-styles_1x.webp";
 import Tend from "../assets/package2_1x.webp";
 import Melt from "../assets/package3_1x.webp";
 import ImagesIconAll_1x from "../assets/images-icon-all_1x.webp";
-import allInOne_1x from "../assets/all-in-one_1x.webp"
-import CallIcon from "../assets/icon_call-light.svg"
+import allInOne_1x from "../assets/all-in-one_1x.webp";
+import CallIcon from "../assets/icon_call-light.svg";
+import IconsVideo from "../assets/3steps.webm"
+import VideoPoster from "../assets/video-poster_1x.webp"
 
 
 
@@ -63,6 +65,9 @@ import Logodesigncard from "../Components/Cards/Logodesigncard";
 import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
 import AffordablePackages from "../Components/Cards/AffordablePackages";
 import Item from "antd/es/list/Item";
+
+// import { FaBeer } from 'react-icons/fa';
+import { ArrowRightOutlined } from '@ant-design/icons';
 
 const Home = () => {
   const CardData = [
@@ -753,7 +758,43 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
 
+        <div className="sec8">
+          <div className="container-sec8">
+            <div className="container-left">
+              <h1>Know Our Logo Design Process</h1>
+              <p>Our process is simple and easy, ensuring you get your desired logo as soon as possible.</p>
+              <div className="sec-8-list">
+                <ul>
+                  <li className="first">
+                    <h4><span>1</span>Place the order</h4>
+                    <p>Speak to our consultant, fill out the brief and place your order</p>
+                  </li>
+                  <li className="middle">
+                    <h4><span>2</span>Get the first designs</h4>
+                    <p>Within next 48 hours, you will have your first drafts in your inbox.</p>
+                  </li>
+                  <li className="last">
+                    <h4><span>3</span>Adjustments & final delivery</h4>
+                    <p>We adjust the logo as per your logo and deliver you the final files.</p>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="">Learn More</a><ArrowRightOutlined />
+
+            </div>
+            </div>
+            
+            <div className="container-right">
+
+              <picture>
+                <source src={IconsVideo} />
+                <img src={VideoPoster} />
+              </picture>
+          </div>
+        </div>
 
 
 
