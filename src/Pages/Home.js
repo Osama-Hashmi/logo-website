@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "antd";
 import Navbar from "../Components/Navbar";
 import "../Styles/Home.css";
+// import IconChatLlight from "../assets/icon_chat_light.webp"
 import alo from "../assets/alo.webp";
 import c1 from "../assets/c1_1x.webp";
 import work from "../assets/work5_1x.webp";
@@ -469,6 +470,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+
         <div className="difbtn">
           <div className="btn">
             <div className="btn1">
@@ -560,16 +562,16 @@ const Home = () => {
             </div>
 
             <div className="sec-4-imgs">
-              <div className="ImpressiveLogos">
-                <Col xs={24} md={24} lg={12}>
-                  <Row gutter={[30, 30]}>
+              <div className="ImpressiveLogosContainer">
+                {/* <Col xs={24} md={24} lg={12}> */}
+                  {/* <Row gutter={[30, 30]}> */}
                     {ImpressiveLogosData.map((data, i) => (
-                      <Col xs={12} lg={6} key={i} className="ImpressiveLogos">
+                      // <Col xs={12} lg={6} key={i} className="ImpressiveLogos">
                         <ImpressiveLogos Image={data.Image} />
-                      </Col>
+                      // </Col>
                     ))}
-                  </Row>
-                </Col>
+                  {/* </Row> */}
+                {/* </Col> */}
               </div>
             </div>
 
@@ -785,17 +787,45 @@ const Home = () => {
               <a href="">Learn More</a><ArrowRightOutlined />
 
             </div>
-            </div>
             
             <div className="container-right">
 
-              <picture>
-                <source src={IconsVideo} />
+
+            <video style={{width: "100%", borderRadius: "20px 20px 0px 0px"}}  controls poster={VideoPoster} >
+          {/* <source src={Modern4} type="video/mp4" /> */}
+          <source src={IconsVideo} type="video/webm" />
+            </video>
+              {/* <video>
+                <source srcSet={IconsVideo} />
                 <img src={VideoPoster} />
-              </picture>
+              </video> */}
+          </div>
+            </div>
+        </div>
+
+
+        <div className="sec9">
+          <div className="sec9-container">
+            <div className="sec9txt">
+            <h1>See What Our Customers Say About Us</h1>
+            <p>Still doubtful of our services? Have a look at our testimonials</p>
+            </div>
+            <div className="sec9-Components">
+
+            </div>
           </div>
         </div>
 
+        <div className="impressivelogobtns">
+          <div className="btn">
+            <div className="btn1">
+              <button>Get Started</button>
+            </div>
+            <div className="btn2">
+              <button>Live Chat</button>
+            </div>
+          </div>
+        </div>
 
 
 

@@ -6,6 +6,8 @@ import Call from "../assets/icon_call.svg";
 import Chat from "../assets/icon_chat.svg";
 import logo from "../assets/logo.svg"
 import vid from "../assets/logo.mp4"
+// import Star from "../assets/cute-star-dry-clay-yellow-graphic-kids.jpg"
+import Stars from "../assets/stars_1x.webp"
 
 
 
@@ -20,7 +22,7 @@ const Navbar = () => {
         <div className="list">
           <a href="">About</a>
           <a href="">Contact</a>
-          <a href="">Reviews( 4.9 Stars)</a>
+          <a href="">Reviews(<img src={Stars} alt="Star" /> 4.9 Stars)</a>
         </div>
 
         <div className="links">

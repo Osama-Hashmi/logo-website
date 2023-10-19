@@ -26,6 +26,14 @@
     flex-direction: column;
 }
 
+.textss h1{
+    font-size: 42px;
+}
+
+.textss p{
+    font-size: 22px;
+}
+
 .logos{
     width: 50%;
 }
@@ -269,8 +277,20 @@
     font-weight: 800;
 }
 
-.ImpressiveLogos{
-    width: 2750px;
+.ImpressiveLogosContainer{
+    /* width: 2750px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: ; */
+    row-gap: 30px;
+}
+
+.ImpressiveLogos img{
+    width: 320px;
+    height: 306px;
 }
 
 .sec-4-txt-lnk{
@@ -552,6 +572,9 @@
 
 .container-right{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-left h1{
@@ -618,4 +641,24 @@
     font-weight: bold;
     text-decoration: underline;
     color: #000000;
+}
+
+.container-right img{
+    width: 100%;
+}
+
+.sec9{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    background-color: #ededed;
+    border-radius: 48px 48px 0 0;
+}
+
+.sec9-container{
+    text-align: center;
+}
+
+.sec9txt{
+    padding-bottom: 50px;
 }
