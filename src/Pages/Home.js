@@ -56,19 +56,20 @@ import Melt from "../assets/package3_1x.webp";
 import ImagesIconAll_1x from "../assets/images-icon-all_1x.webp";
 import allInOne_1x from "../assets/all-in-one_1x.webp";
 import CallIcon from "../assets/icon_call-light.svg";
-import IconsVideo from "../assets/3steps.webm"
-import VideoPoster from "../assets/video-poster_1x.webp"
-
-
+import IconsVideo from "../assets/3steps.webm";
+import VideoPoster from "../assets/video-poster_1x.webp";
+// import Google1x from "../assetsgoogle_1x.webp"
 
 import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
 import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
 import AffordablePackages from "../Components/Cards/AffordablePackages";
+import TestimonialCards from "../Components/Cards/TestimonialCards"
 import Item from "antd/es/list/Item";
 
 // import { FaBeer } from 'react-icons/fa';
-import { ArrowRightOutlined } from '@ant-design/icons';
+import { ArrowRightOutlined } from "@ant-design/icons";
+import { Content } from "antd/es/layout/layout";
 
 const Home = () => {
   const CardData = [
@@ -197,7 +198,7 @@ const Home = () => {
       Heading: "Best Seller",
       Subheading: "Ideal solution for beginners",
       Pricing: "$29",
-      Discount: ["$145" , "80% Off!"],
+      Discount: ["$145", "80% Off!"],
       ListHeading: "PACKAGE INCLUDES:",
       ListItems: [
         "4 Logo Design Concepts",
@@ -221,7 +222,7 @@ const Home = () => {
       Heading: "The Ultimate",
       Subheading: "Startup-friendly design package",
       Pricing: "$69",
-      Discount: ["$345" , "80% Off!"],
+      Discount: ["$345", "80% Off!"],
       ListHeading: "PACKAGE INCLUDES:",
       ListItems: [
         "6 Logo Design Concepts",
@@ -249,7 +250,7 @@ const Home = () => {
       Heading: "The Ultimate",
       Subheading: "Startup-friendly design package",
       Pricing: "$99",
-      Discount: ["$495" , "80% Off!"],
+      Discount: ["$495", "80% Off!"],
       ListHeading: "PACKAGE INCLUDES:",
       ListItems: [
         "8 Logo Design Concepts",
@@ -271,6 +272,14 @@ const Home = () => {
       PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
     },
   ];
+
+  const TestimonialCardsList = [
+    {
+      Pname: "DS",
+      Name: "Diesel Simon",
+      Content: "My business just got off the ground, thus I wanted the greatest logo possible. Choosing only one agency was challenging. So, I looked through reviews of custom logo creators on numerous websites, and I'm so happy I found Logo Eminent. They truly are the finest!",
+    }
+  ]
 
   return (
     <div className="main">
@@ -564,13 +573,13 @@ const Home = () => {
             <div className="sec-4-imgs">
               <div className="ImpressiveLogosContainer">
                 {/* <Col xs={24} md={24} lg={12}> */}
-                  {/* <Row gutter={[30, 30]}> */}
-                    {ImpressiveLogosData.map((data, i) => (
-                      // <Col xs={12} lg={6} key={i} className="ImpressiveLogos">
-                        <ImpressiveLogos Image={data.Image} />
-                      // </Col>
-                    ))}
-                  {/* </Row> */}
+                {/* <Row gutter={[30, 30]}> */}
+                {ImpressiveLogosData.map((data, i) => (
+                  // <Col xs={12} lg={6} key={i} className="ImpressiveLogos">
+                  <ImpressiveLogos Image={data.Image} />
+                  // </Col>
+                ))}
+                {/* </Row> */}
                 {/* </Col> */}
               </div>
             </div>
@@ -716,102 +725,137 @@ const Home = () => {
                 bespoke designs, enabling you to kickstart your brand’s digital
                 presence on all platforms.
               </p>
-            
+
               <div className="sec7-list">
-              <div className="sec7-listfirst">
-              <li>Logo Design</li>
-              <li>Stationery Design</li>
-              <li>Website Design</li>
+                <div className="sec7-listfirst">
+                  <li>Logo Design</li>
+                  <li>Stationery Design</li>
+                  <li>Website Design</li>
+                </div>
+
+                <div className="sec7-listlast">
+                  <li>Banner Design</li>
+                  <li>Social Media Design</li>
+                  <li>Special Features</li>
+                </div>
               </div>
 
-              <div className="sec7-listlast">
-              <li>Banner Design</li>
-              <li>Social Media Design</li>
-              <li>Special Features</li>
+              <div className="sec7-pricingSpan">
+                <p>$1599</p>{" "}
+                <span className="discount-span">
+                  <del>$7995</del> Save 80% off!
+                </span>
               </div>
-              
+
+              <div className="impressivelogobtns">
+                <div className="btn">
+                  <div className="btn1">
+                    <button>Select Package</button>
+                  </div>
+                  <div className="btn2">
+                    <button>Live Chat With Our Consultant</button>
+                  </div>
+                </div>
               </div>
 
-            <div className="sec7-pricingSpan">
-              <p>$1599</p> <span className="discount-span"><del>$7995</del> Save 80% off!</span>
+              <div className="sec7-contactus">
+                <p>or call us at</p>
+                <img src={CallIcon} alt="" />
+                <a href="">+1 (844) 213-5457</a>
+              </div>
             </div>
 
-            <div className="impressivelogobtns">
-          <div className="btn">
-            <div className="btn1">
-              <button>Select Package</button>
-            </div>
-            <div className="btn2">
-              <button>Live Chat With Our Consultant</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="sec7-contactus">
-          <p>or call us at</p>
-          <img src={CallIcon} alt="" />
-          <a href="">+1 (844) 213-5457</a>
-        </div>
-
-            </div>
-            
             <div className="sec7-image">
-                <img src={allInOne_1x} alt="" />
+              <img src={allInOne_1x} alt="" />
             </div>
           </div>
         </div>
-        
 
         <div className="sec8">
           <div className="container-sec8">
             <div className="container-left">
               <h1>Know Our Logo Design Process</h1>
-              <p>Our process is simple and easy, ensuring you get your desired logo as soon as possible.</p>
+              <p>
+                Our process is simple and easy, ensuring you get your desired
+                logo as soon as possible.
+              </p>
               <div className="sec-8-list">
                 <ul>
                   <li className="first">
-                    <h4><span>1</span>Place the order</h4>
-                    <p>Speak to our consultant, fill out the brief and place your order</p>
+                    <h4>
+                      <span>1</span>Place the order
+                    </h4>
+                    <p>
+                      Speak to our consultant, fill out the brief and place your
+                      order
+                    </p>
                   </li>
                   <li className="middle">
-                    <h4><span>2</span>Get the first designs</h4>
-                    <p>Within next 48 hours, you will have your first drafts in your inbox.</p>
+                    <h4>
+                      <span>2</span>Get the first designs
+                    </h4>
+                    <p>
+                      Within next 48 hours, you will have your first drafts in
+                      your inbox.
+                    </p>
                   </li>
                   <li className="last">
-                    <h4><span>3</span>Adjustments & final delivery</h4>
-                    <p>We adjust the logo as per your logo and deliver you the final files.</p>
+                    <h4>
+                      <span>3</span>Adjustments & final delivery
+                    </h4>
+                    <p>
+                      We adjust the logo as per your logo and deliver you the
+                      final files.
+                    </p>
                   </li>
                 </ul>
               </div>
 
-              <a href="">Learn More</a><ArrowRightOutlined />
-
+              <a href="">Learn More</a>
+              <ArrowRightOutlined />
             </div>
-            
+
             <div className="container-right">
-
-
-            <video style={{width: "100%", borderRadius: "20px 20px 0px 0px"}}  controls poster={VideoPoster} >
-          {/* <source src={Modern4} type="video/mp4" /> */}
-          <source src={IconsVideo} type="video/webm" />
-            </video>
+              <video
+                style={{ width: "100%", borderRadius: "20px 20px 0px 0px" }}
+                controls
+                poster={VideoPoster}
+              >
+                {/* <source src={Modern4} type="video/mp4" /> */}
+                <source src={IconsVideo} type="video/webm" />
+              </video>
               {/* <video>
                 <source srcSet={IconsVideo} />
                 <img src={VideoPoster} />
               </video> */}
-          </div>
             </div>
+          </div>
         </div>
-
 
         <div className="sec9">
           <div className="sec9-container">
             <div className="sec9txt">
-            <h1>See What Our Customers Say About Us</h1>
-            <p>Still doubtful of our services? Have a look at our testimonials</p>
+              <h1>See What Our Customers Say About Us</h1>
+              <p>
+                Still doubtful of our services? Have a look at our testimonials
+              </p>
             </div>
             <div className="sec9-Components">
-
+            <Col> 
+            {/* xs={24} md={24} lg={12}> */}
+            <Row>
+            {/* gutter={[30, 30]} */}
+            {TestimonialCardsList.map((data, i) => (
+                  <Col xs={12} lg={6} key={i} className="TestimonialCards">
+                    <TestimonialCards 
+                      Pname= {data.Pname}
+                      Name= {data.Name}
+                      Content= {data.Content}
+                    />
+                  </Col>
+              ))}
+              </Row>
+            </Col>
             </div>
           </div>
         </div>
@@ -826,9 +870,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-
-
       </div>
     </div>
   );

@@ -662,3 +662,79 @@
 .sec9txt{
     padding-bottom: 50px;
 }
+
+.sec9-Components{
+    margin-top: 20px;
+}
+
+.revCard{
+    width: 244px !important;
+    height: 176px !important;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 6px;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.revtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileImage{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #512DA8;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.rev-avatar img{
+    width: 24px;
+    height: 24px;
+}
+
+.rev-avatar{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.rev-author img{
+    width: 100%;
+}
+
+.rev-author{
+    font-size: 18px;
+}
+
+.rev-author p{
+    margin: 0%;
+}
+
+.rev-content{
+    overflow: hidden;
+}
+
+.rev-content p{
+    height: 100px;
+    padding: 15px;
+    text-align: left;
+    line-height: 1.75rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.rev-content ::-webkit-scrollbar-track-piece{
+    color: #fecd5e;
+}
