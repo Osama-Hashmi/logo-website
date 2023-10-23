@@ -634,7 +634,7 @@
 
 .container-left .sec-8-list ul{
     padding-left: 0;
-    
+
 }
 
 .container-left a{
@@ -740,4 +740,22 @@
 
 .rev-content ::-webkit-scrollbar-track-piece{
     color: #fecd5e;
+}
+
+.sec10{
+    margin-top: 50px;
+}
+
+.sec10-left{
+    width: 395px;
+    /* align-items: center; */
+}
+
+.sec10-left h1{
+    color: #3555C7;
+    font-size: 38px;
+}
+
+.sec10-left p a{
+    color: black;
 }

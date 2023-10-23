@@ -59,6 +59,8 @@ import CallIcon from "../assets/icon_call-light.svg";
 import IconsVideo from "../assets/3steps.webm";
 import VideoPoster from "../assets/video-poster_1x.webp";
 // import Google1x from "../assetsgoogle_1x.webp"
+import FaqSide from "../assets/faq-side_1x.webp"
+
 
 import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
@@ -906,7 +908,7 @@ const Home = () => {
                       Pname= {data.Pname}
                       Name= {data.Name}
                       Content= {data.Content}
-                      
+
                     />
                   </Col>
               ))}
@@ -923,6 +925,21 @@ const Home = () => {
             </div>
             <div className="btn2">
               <button>Live Chat</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="sec10">
+          <div className="sec10-container">
+            <div className="sec10-left">
+              <h1>Have More Questions?</h1>
+              <p>See our <a href="#">help center</a> or <a href="#">send us a message!</a> </p>
+              <div className="sec10-left-img">
+                <img src={FaqSide} alt="" />
+              </div>
+            </div>
+            <div className="sec10-right">
+
             </div>
           </div>
         </div>
