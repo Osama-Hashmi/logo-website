@@ -15,7 +15,7 @@ const TestimonialCards = ({Pname, Name, Content}) => {
           </div>
             </div>
               <img src={google1x} alt="" />
-        </div>
+         </div>
         <div className="rev-content">
           <p>{Content}</p>
         </div>

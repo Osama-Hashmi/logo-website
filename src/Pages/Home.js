@@ -906,6 +906,7 @@ const Home = () => {
                       Pname= {data.Pname}
                       Name= {data.Name}
                       Content= {data.Content}
+                      
                     />
                   </Col>
               ))}
