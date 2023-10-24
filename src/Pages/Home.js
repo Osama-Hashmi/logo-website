@@ -71,7 +71,7 @@ import Item from "antd/es/list/Item";
 
 // import { FaBeer } from 'react-icons/fa';
 import { ArrowRightOutlined } from "@ant-design/icons";
-import { Content } from "antd/es/layout/layout";
+// import { Content } from "antd/es/layout/layout";
 
 const Home = () => {
   const CardData = [
@@ -277,61 +277,73 @@ const Home = () => {
 
   const TestimonialCardsList = [
     {
+      Color: "#512DA8",
       Pname: "DS",
       Name: "Diesel Simon",
       Content: "My business just got off the ground, thus I wanted the greatest logo possible. Choosing only one agency was challenging. So, I looked through reviews of custom logo creators on numerous websites, and I'm so happy I found Logo Eminent. They truly are the finest!",
     },
     {
+      Color: "#107dff",
       Pname: "AB",
       Name: "Arla Baldwin",
       Content: "With inflation on the rise, I was surprised to look at the pricing of Logo Emiment I mean wow. We started with logo and moved on to packaging and eventually my website.",
     },
     {
+      Color: "#6a799d",
       Pname: "AP",
       Name: "Alexia Peerce",
       Content: "I find it hard to finalize agencies to work with online. When I looked for reviews I found Logo Eminent with most positive reviews. And after working with them I can also vouch for their services.",
     },
     {
+      Color: "#42e0a7",
       Pname: "DL",
       Name: "Demi L.",
       Content: "I considered several options before deciding on LogoEminent. Their work was the best. Top-notch designers work for them. I am satisfied with their work",
     },
     {
+      Color: "#6c39db",
       Pname: "BF",
       Name: "Bruno Farrow",
       Content: "I wasn’t very happy with my company’s current logo. I believed my company could have a better. I tried Logo Eminent, asked them to give me a few options. I am very happy with what they made for me.",
     },
     {
+      Color: "#44c56d",
       Pname: "TL",
       Name: "Timothy I. Leung",
       Content: "I just finished my first project with Logo Eminent and I couldn't be more pleased. They are without a doubt the best design firm I have ever worked with, and believe me, I have worked with many. They receive five stars for creating the best bespoke logos.",
     },
     {
+      Color: "#57afd9",
       Pname: "JM",
       Name: "Jolyon Mata",
       Content: "Logo Eminent account managers are very professional and their designer unquestionable topnotch. I would advise you all to use them.",
     },
     {
+      Color: "#5dabcf",
       Pname: "AK",
       Name: "Amelia K.",
       Content: "I would happily recommend Logo Eminent for their aptitude towards design and creativity. We are thrilled with the job they did for us, and we believe they are the best in the market.",
     },
     {
+      Color: "#28c096",
       Pname: "KC",
       Name: "Kurtis Casey",
       Content: "I run a marketing agency and our clients often ask for branding services. I was looking for someone who I can outsource my client’s work to with ease. I am glad I found Logo Eminent, we have been in partnership since 3 years and so far it has been good.",
     },
     {
+      Color: "#4bb8ef",
       Pname: "EW",
       Name: "Enya Webber",
       Content: "I was a little reluctant at first to give Logo Eminent my work. But they did such a fine job. Their creators are incredibly talented. Thankyou Logo Eminent.",
     },
     {
+      Color: "#326ed4",
       Pname: "AD",
       Name: "Angelika Dunkley",
       Content: "Logo Eminent worked with us to develop a very recognizable and meaningful brand identity for our brand. It looked very original, and aligned with our brand USPs. Thankyou Logo Eminent for effective communication and putting such creative thought into our design.",
     },
     {
+      Color: "#2ea2fe",
       Pname: "GC",
       Name: "Georgina Cleveland",
       Content: "I am incredibly proud of the outcome and cannot speak highly enough of Logo Eminent’s team. They were very dedicated to creating a design that was unique to our company from the very beginning. They always responded to us promptly, gave us high quality designs. We appreciate them for professionalism.",
@@ -905,6 +917,7 @@ const Home = () => {
             {TestimonialCardsList.map((data, i) => (
                   <Col xs={12} lg={6} key={i} className="TestimonialCards">
                     <TestimonialCards 
+                      Color= {data.Color}
                       Pname= {data.Pname}
                       Name= {data.Name}
                       Content= {data.Content}

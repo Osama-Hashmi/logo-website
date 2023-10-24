@@ -1,13 +1,13 @@
 import google1x from "../../assets/google_1x.webp"
 import Stars from "../../assets/stars_1x.webp"
 
-const TestimonialCards = ({Pname, Name, Content}) => {
+const TestimonialCards = ({Pname, Name, Content, Color}) => {
   return (
     <div className="revCard">
       <div className="revhead">
         <div className="revtop">
           <div className="rev-avatar">
-            <div className="profileImage">{Pname}
+            <div className="profileImage" style={{backgroundColor: Color}}>{Pname}
             </div>
             <div className="rev-author">
               <p>{Name}</p>

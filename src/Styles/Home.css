@@ -692,7 +692,7 @@
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: #512DA8;
+    /* background: #512DA8; */
     font-size: 20px;
     color: #fff;
     text-align: center;
@@ -711,6 +711,7 @@
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
+    text-align: left;
 }
 
 .rev-author img{
