@@ -59,21 +59,29 @@ import CallIcon from "../assets/icon_call-light.svg";
 import IconsVideo from "../assets/3steps.webm";
 import VideoPoster from "../assets/video-poster_1x.webp";
 // import Google1x from "../assetsgoogle_1x.webp"
-import FaqSide from "../assets/faq-side_1x.webp"
-
+import FaqSide from "../assets/faq-side_1x.webp";
+// import Packagesbg11 from "../assets/packages-bg11.webp"
+import PackgeSide2 from "../assets/package-side2_1x.webp"
 
 import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
 import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
 import AffordablePackages from "../Components/Cards/AffordablePackages";
-import TestimonialCards from "../Components/Cards/TestimonialCards"
+import TestimonialCards from "../Components/Cards/TestimonialCards";
 import Item from "antd/es/list/Item";
 
 // import { FaBeer } from 'react-icons/fa';
 import { ArrowRightOutlined } from "@ant-design/icons";
 // import { Content } from "antd/es/layout/layout";
+import { Collapse, Divider } from "antd";
 
 const Home = () => {
+  const text = `
+  A dog is a type of domesticated animal.
+  Known for its loyalty and faithfulness,
+  it can be found as a welcome guest in many households across the world.
+`;
+
   const CardData = [
     {
       Image: alo,
@@ -280,75 +288,87 @@ const Home = () => {
       Color: "#512DA8",
       Pname: "DS",
       Name: "Diesel Simon",
-      Content: "My business just got off the ground, thus I wanted the greatest logo possible. Choosing only one agency was challenging. So, I looked through reviews of custom logo creators on numerous websites, and I'm so happy I found Logo Eminent. They truly are the finest!",
+      Content:
+        "My business just got off the ground, thus I wanted the greatest logo possible. Choosing only one agency was challenging. So, I looked through reviews of custom logo creators on numerous websites, and I'm so happy I found Logo Eminent. They truly are the finest!",
     },
     {
       Color: "#107dff",
       Pname: "AB",
       Name: "Arla Baldwin",
-      Content: "With inflation on the rise, I was surprised to look at the pricing of Logo Emiment I mean wow. We started with logo and moved on to packaging and eventually my website.",
+      Content:
+        "With inflation on the rise, I was surprised to look at the pricing of Logo Emiment I mean wow. We started with logo and moved on to packaging and eventually my website.",
     },
     {
       Color: "#6a799d",
       Pname: "AP",
       Name: "Alexia Peerce",
-      Content: "I find it hard to finalize agencies to work with online. When I looked for reviews I found Logo Eminent with most positive reviews. And after working with them I can also vouch for their services.",
+      Content:
+        "I find it hard to finalize agencies to work with online. When I looked for reviews I found Logo Eminent with most positive reviews. And after working with them I can also vouch for their services.",
     },
     {
       Color: "#42e0a7",
       Pname: "DL",
       Name: "Demi L.",
-      Content: "I considered several options before deciding on LogoEminent. Their work was the best. Top-notch designers work for them. I am satisfied with their work",
+      Content:
+        "I considered several options before deciding on LogoEminent. Their work was the best. Top-notch designers work for them. I am satisfied with their work",
     },
     {
       Color: "#6c39db",
       Pname: "BF",
       Name: "Bruno Farrow",
-      Content: "I wasn’t very happy with my company’s current logo. I believed my company could have a better. I tried Logo Eminent, asked them to give me a few options. I am very happy with what they made for me.",
+      Content:
+        "I wasn’t very happy with my company’s current logo. I believed my company could have a better. I tried Logo Eminent, asked them to give me a few options. I am very happy with what they made for me.",
     },
     {
       Color: "#44c56d",
       Pname: "TL",
       Name: "Timothy I. Leung",
-      Content: "I just finished my first project with Logo Eminent and I couldn't be more pleased. They are without a doubt the best design firm I have ever worked with, and believe me, I have worked with many. They receive five stars for creating the best bespoke logos.",
+      Content:
+        "I just finished my first project with Logo Eminent and I couldn't be more pleased. They are without a doubt the best design firm I have ever worked with, and believe me, I have worked with many. They receive five stars for creating the best bespoke logos.",
     },
     {
       Color: "#57afd9",
       Pname: "JM",
       Name: "Jolyon Mata",
-      Content: "Logo Eminent account managers are very professional and their designer unquestionable topnotch. I would advise you all to use them.",
+      Content:
+        "Logo Eminent account managers are very professional and their designer unquestionable topnotch. I would advise you all to use them.",
     },
     {
       Color: "#5dabcf",
       Pname: "AK",
       Name: "Amelia K.",
-      Content: "I would happily recommend Logo Eminent for their aptitude towards design and creativity. We are thrilled with the job they did for us, and we believe they are the best in the market.",
+      Content:
+        "I would happily recommend Logo Eminent for their aptitude towards design and creativity. We are thrilled with the job they did for us, and we believe they are the best in the market.",
     },
     {
       Color: "#28c096",
       Pname: "KC",
       Name: "Kurtis Casey",
-      Content: "I run a marketing agency and our clients often ask for branding services. I was looking for someone who I can outsource my client’s work to with ease. I am glad I found Logo Eminent, we have been in partnership since 3 years and so far it has been good.",
+      Content:
+        "I run a marketing agency and our clients often ask for branding services. I was looking for someone who I can outsource my client’s work to with ease. I am glad I found Logo Eminent, we have been in partnership since 3 years and so far it has been good.",
     },
     {
       Color: "#4bb8ef",
       Pname: "EW",
       Name: "Enya Webber",
-      Content: "I was a little reluctant at first to give Logo Eminent my work. But they did such a fine job. Their creators are incredibly talented. Thankyou Logo Eminent.",
+      Content:
+        "I was a little reluctant at first to give Logo Eminent my work. But they did such a fine job. Their creators are incredibly talented. Thankyou Logo Eminent.",
     },
     {
       Color: "#326ed4",
       Pname: "AD",
       Name: "Angelika Dunkley",
-      Content: "Logo Eminent worked with us to develop a very recognizable and meaningful brand identity for our brand. It looked very original, and aligned with our brand USPs. Thankyou Logo Eminent for effective communication and putting such creative thought into our design.",
+      Content:
+        "Logo Eminent worked with us to develop a very recognizable and meaningful brand identity for our brand. It looked very original, and aligned with our brand USPs. Thankyou Logo Eminent for effective communication and putting such creative thought into our design.",
     },
     {
       Color: "#2ea2fe",
       Pname: "GC",
       Name: "Georgina Cleveland",
-      Content: "I am incredibly proud of the outcome and cannot speak highly enough of Logo Eminent’s team. They were very dedicated to creating a design that was unique to our company from the very beginning. They always responded to us promptly, gave us high quality designs. We appreciate them for professionalism.",
+      Content:
+        "I am incredibly proud of the outcome and cannot speak highly enough of Logo Eminent’s team. They were very dedicated to creating a design that was unique to our company from the very beginning. They always responded to us promptly, gave us high quality designs. We appreciate them for professionalism.",
     },
-  ]
+  ];
 
   return (
     <div className="main">
@@ -910,23 +930,22 @@ const Home = () => {
               </p>
             </div>
             <div className="sec9-Components">
-            <Col> 
-            {/* xs={24} md={24} lg={12}> */}
-            <Row>
-            {/* gutter={[30, 30]} */}
-            {TestimonialCardsList.map((data, i) => (
-                  <Col xs={12} lg={6} key={i} className="TestimonialCards">
-                    <TestimonialCards 
-                      Color= {data.Color}
-                      Pname= {data.Pname}
-                      Name= {data.Name}
-                      Content= {data.Content}
-
-                    />
-                  </Col>
-              ))}
-              </Row>
-            </Col>
+              <Col>
+                {/* xs={24} md={24} lg={12}> */}
+                <Row>
+                  {/* gutter={[30, 30]} */}
+                  {TestimonialCardsList.map((data, i) => (
+                    <Col xs={12} lg={6} key={i} className="TestimonialCards">
+                      <TestimonialCards
+                        Color={data.Color}
+                        Pname={data.Pname}
+                        Name={data.Name}
+                        Content={data.Content}
+                      />
+                    </Col>
+                  ))}
+                </Row>
+              </Col>
             </div>
           </div>
         </div>
@@ -946,14 +965,88 @@ const Home = () => {
           <div className="sec10-container">
             <div className="sec10-left">
               <h1>Have More Questions?</h1>
-              <p>See our <a href="#">help center</a> or <a href="#">send us a message!</a> </p>
+              <p>
+                See our <a href="#">help center</a> or{" "}
+                <a href="#">send us a message!</a>{" "}
+              </p>
               <div className="sec10-left-img">
                 <img src={FaqSide} alt="" />
               </div>
             </div>
-            <div className="sec10-right">
 
+            <div className="sec10-right">
+              <div className="dropdowns">
+                <div className="dropdown1">
+                  <div class="dropdown">
+                    {/* <Divider orientation="left">Default Size</Divider> */}
+                    <Collapse
+                      items={[
+                        {
+                          key: "1",
+                          label: "This is default size panel header",
+                          children: <p>{text}</p>,
+                        },
+                      ]}
+                    />
+                    {/* <Divider orientation="left">Small Size</Divider> */}
+                    <Collapse
+                      size="small"
+                      items={[
+                        {
+                          key: "1",
+                          label: "This is small size panel header",
+                          children: <p>{text}</p>,
+                        },
+                      ]}
+                    />
+                    {/* <Divider orientation="left">Large Size</Divider> */}
+                    <Collapse
+                      size="large"
+                      items={[
+                        {
+                          key: "1",
+                          label: "This is large size panel header",
+                          children: <p>{text}</p>,
+                        },
+                      ]}
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+
+        <div className="sec-11">
+          <div className="sec11-container">
+            <div className="sec-11-left">
+              <h1>Looking For Custom Logo Design Packages?</h1>
+              <p>
+                Hire a logo designer online to create your project with us and
+                get the design of your dreams. Try us today. We guarantee you
+                will be 100% satisfied
+              </p>
+
+              <div className="impressivelogobtns">
+                <div className="btn">
+                  <div className="btn2">
+                    <button>Chat With Our Consultant</button>
+                  </div>
+                  <div className="btn1">
+                    <button>Select Bundle Package</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="sec-11-contactus">
+              <p>Or call us at</p>
+              <img src={CallIcon} alt="" />
+              <a href="#">+1 (844) 213-5457</a>
+              </div>
+            </div>
+
+            <div className="sec-11-right"></div>
+            <img src={PackgeSide2} alt="" />
           </div>
         </div>
       </div>

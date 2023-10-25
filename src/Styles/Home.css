@@ -1,7 +1,8 @@
 .main{
     /* width: 80%; */
     margin-left: 2%;
-    width: 95%;
+    width: 90%;
+    margin-left: 65px;
 }
 
 .head{
@@ -483,7 +484,7 @@
     color: white;
     background-size: cover;
     padding: 20px;
-    height: 530px;
+    height: 600px;
     margin-bottom: 50px;
 }
 
@@ -759,4 +760,44 @@
 
 .sec10-left p a{
     color: black;
+}
+
+.sec10-container{
+    display: flex;
+}
+
+
+.sec-11{
+    margin-top: 100px;
+    background: black url(../assets/packages-bg11.jpeg);
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    border-radius: 48px 48px 0 0;
+    margin-bottom: 50px;
+}
+
+.sec11-container{
+    /* padding: 40px; */
+    display: flex;
+}
+
+.sec-11-left{
+    width: 50%;
+    padding: 60px 0 60px 30px;
+}
+
+.sec-11-right{
+    width: 50%;
+}
+
+.sec-11-contactus{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.sec-11-contactus a{
+    color: white;
 }
