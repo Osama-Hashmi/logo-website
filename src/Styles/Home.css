@@ -771,7 +771,7 @@
     margin-top: 100px;
     background: black url(../assets/packages-bg11.jpeg);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 430px;
     color: white;
     border-radius: 48px 48px 0 0;
     margin-bottom: 50px;
@@ -800,4 +800,21 @@
 
 .sec-11-contactus a{
     color: white;
+}
+
+.sec-11-left .btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sec-11-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-11-right img{
+    width: 476px;
+    height: 359px;
 }

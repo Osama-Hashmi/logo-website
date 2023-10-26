@@ -1045,8 +1045,9 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="sec-11-right"></div>
+            <div className="sec-11-right">
             <img src={PackgeSide2} alt="" />
+            </div>
           </div>
         </div>
       </div>
