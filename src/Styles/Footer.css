@@ -1,0 +1,89 @@
+.footer{
+    border-top: 1px solid #dddddd;
+}
+
+.footer-container{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address{
+    width: 20%;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.address a{
+    color: black;
+}
+
+.linkslist{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resources{
+    width: 20%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.resources a{
+    color: black;
+    line-height: 2.2;
+    text-decoration: none;
+}
+
+.logoDesign{
+    width: 20%;
+    list-style: none;
+}
+
+.logoDesign a{
+    color: black;
+    line-height: 2.2;
+    text-decoration: none;
+}
+
+.websiteDesign{
+    width: 20%;
+    list-style: none;
+}
+
+.websiteDesign a{
+    color: black;
+    line-height: 2.2;
+    text-decoration: none;
+}
+
+.quickLinks{
+    width: 20%;
+    list-style: none;
+}
+
+.quickLinks a{
+    color: black;
+    line-height: 2.2;
+    text-decoration: none;
+}
+
+.bottomLine{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+
+.bottomLine .text{
+    font-size: 16px;
+    width: 100%;
+}
+
+.payments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

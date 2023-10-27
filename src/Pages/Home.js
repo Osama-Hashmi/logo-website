@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import "../Styles/Home.css";
 // import IconChatLlight from "../assets/icon_chat_light.webp"
 import alo from "../assets/alo.webp";
@@ -62,6 +63,12 @@ import VideoPoster from "../assets/video-poster_1x.webp";
 import FaqSide from "../assets/faq-side_1x.webp";
 // import Packagesbg11 from "../assets/packages-bg11.webp"
 import PackgeSide2 from "../assets/package-side2_1x.webp"
+import logo8_1x from "../assets/logo8_1x.webp"
+import logo9_1x from "../assets/logo9_1x.webp"
+import logo10_1x from "../assets/logo10_1x.webp"
+import logo11_1x from "../assets/logo11_1x.webp"
+import logo12_1x from "../assets/logo12_1x.webp"
+import logo13_1x from "../assets/logo13_1x.webp"
 
 import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
@@ -1050,7 +1057,19 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+          <div className="sec-12">
+              <img src={logo8_1x} alt="" />
+              <img src={logo9_1x} alt="" />
+              <img src={logo10_1x} alt="" />
+              <img src={logo11_1x} alt="" />
+              <img src={logo12_1x} alt="" />
+              <img src={logo13_1x} alt="" />
+          </div>
+
+
       </div>
+      <Footer />
     </div>
   );
 };
