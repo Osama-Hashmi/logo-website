@@ -6,6 +6,14 @@ import "../Styles/Home.css";
 // import IconChatLlight from "../assets/icon_chat_light.webp"
 import alo from "../assets/alo.webp";
 import c1 from "../assets/c1_1x.webp";
+import c10 from "../assets/c10_1x.webp";
+import c2 from "../assets/c2_1x.webp";
+import c5 from "../assets/c5_1x.webp";
+import c8 from "../assets/c8_1x.webp";
+import c11 from "../assets/c11_1x.webp";
+import c9 from "../assets/c9_1x.webp";
+import c3 from "../assets/c3_1x.webp";
+import c6 from "../assets/c6_1x.webp";
 import work from "../assets/work5_1x.webp";
 import work8 from "../assets/work8_1x.webp";
 import work2 from "../assets/work2_1x.webp";
@@ -75,10 +83,11 @@ import Logodesigncard from "../Components/Cards/Logodesigncard";
 import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
 import AffordablePackages from "../Components/Cards/AffordablePackages";
 import TestimonialCards from "../Components/Cards/TestimonialCards";
+
 import Item from "antd/es/list/Item";
 
 // import { FaBeer } from 'react-icons/fa';
-import { ArrowRightOutlined } from "@ant-design/icons";
+import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 // import { Content } from "antd/es/layout/layout";
 import { Collapse, Divider } from "antd";
 
@@ -107,42 +116,42 @@ const Home = () => {
     },
     {
       Image: work4,
-      UserImage: c1,
+      UserImage: c10,
       Name: "Eduardo Rosas",
     },
     {
       Image: work,
-      UserImage: c1,
+      UserImage: c2,
       Name: "Jonathan Meza",
     },
     {
       Image: work6,
-      UserImage: c1,
+      UserImage: c5,
       Name: "Beatriz Braga",
     },
     {
       Image: work7,
-      UserImage: c1,
+      UserImage: c8,
       Name: "Giang Trương",
     },
     {
       Image: work11,
-      UserImage: c1,
+      UserImage: c11,
       Name: "Ksenia Chernaya",
     },
     {
       Image: work8,
-      UserImage: c1,
+      UserImage: c3,
       Name: "Gustavo Fring",
     },
     {
       Image: work9,
-      UserImage: c1,
+      UserImage: c6,
       Name: "Daniel Tran",
     },
     {
       Image: work10,
-      UserImage: c1,
+      UserImage: c9,
       Name: "Leticia Ribeiro",
     },
   ];
@@ -404,7 +413,7 @@ const Home = () => {
               </div>
             </Col>
             <Col xs={24} md={24} lg={12}>
-              <Row gutter={[30, 30]}>
+              <Row gutter={[90, 30]}>
                 {CardData.map((data, i) => (
                   <Col xs={12} lg={6} key={i} className="cardss">
                     <SmallCard
@@ -558,7 +567,6 @@ const Home = () => {
           <div className="custom-logo-body">
             <div className="custom-logo-text">
               <h2>Marks your identity</h2>
-              <br />
               <p>
                 Do you recall the classic Western movies in which cowboys
                 branded their cattle? It was done to indicate ownership. The
@@ -569,6 +577,10 @@ const Home = () => {
                 the kind of goods or services you provide, and the advantages
                 you give to customers.
               </p>
+              <div className="arrowicon">
+              <ArrowLeftOutlined />
+              <ArrowRightOutlined />
+              </div>
             </div>
             <div className="custom-logo-img">
               <img src={benefit} alt="" />

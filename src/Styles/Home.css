@@ -27,6 +27,19 @@
     flex-direction: column;
 }
 
+.ReviewCards p{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-family: "Avenir", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    font-style: italic;
+    box-shadow: 6px 8px 11px 3px solid black;
+}
+
 .textss h1{
     font-size: 42px;
 }
@@ -162,7 +175,7 @@
 .custom-logo{
     /* display: flex; */
     background-color: #ededed;
-    border-radius: 50px;
+    border-radius: 48px 48px 0 0;
     padding: 50px;
     padding-top: 20px;
     margin-top: 50px;
@@ -170,7 +183,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 1.75;
-
+    height: 650px;
 }
 
 .custom-logo-heading{
@@ -187,6 +200,13 @@
     font-size: 18px;
     letter-spacing: 3px;
     margin-top: 50px;
+}
+
+.arrowicon{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 15px;
 }
 
 #textss{
@@ -290,8 +310,8 @@
 }
 
 .ImpressiveLogos img{
-    width: 320px;
-    height: 306px;
+    width: 307px;
+    height: 295px;
 }
 
 .sec-4-txt-lnk{
