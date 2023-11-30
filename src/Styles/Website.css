@@ -1,16 +1,16 @@
-.sec1{
+.wsec1{
     width: 100%;
     display: flex;
     margin-top: 40px;
 }
 
-.sec1 .texts{
+.wsec1 .texts{
     width: 50%;
     padding-top: 20px;
     /* line-height: 30px; */
 }
 
-.sec1 .texts h2{
+.wsec1 .texts h2{
     font-size: 30px;
     /* font-weight: 400; */
     line-height: 1.4;
@@ -18,7 +18,7 @@
     margin-bottom: 0%;
 }
 
-.sec1 .texts h1{
+.wsec1 .texts h1{
     font-size: 42px;
     font-weight: 700;
     line-height: 1.3;
@@ -26,37 +26,41 @@
     margin: 0%;
 }
 
-.sec1 .texts p{
+.wsec1 .texts p{
     font-size: 22px;
     font-weight: 400;
     line-height: 1.4;
 }
 
-.sec1 .texts .btn{
+.wsec1 .texts .btn{
     display: flex;
     justify-content: flex-start;
     /* align-items: flex-start; */
 }
 
-.sec1-right{
+.wsec1-right{
     width: 50%;
 }
 
-.sec1-right img{
+.wsec1-right img{
     width: 746px;
     height: 378px;
 }
 
-.slider{
+.wslider{
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.sec3-text{
+.wsec3{
+    margin-top: 70px;
+}
+
+.wsec3-text{
     text-align: center;
 }
 
-.sec3-text h1{
+.wsec3-text h1{
     font-size: 38px;
     font-family: "Avenir Next", sans-serif;
     font-weight: bold;
@@ -64,8 +68,87 @@
     letter-spacing: -0.04em;
 }
 
-.sec3-text p{
+.wsec3-text p{
     font-size: 18px;
     letter-spacing: -0.8px;
     margin-bottom: 20px;
+}
+
+.sec-3-expertcards{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.wsec-4-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.expertcard{
+    width: 80%;
+    height: auto;
+    padding: 40px 30px 30px 30px;
+    background: #EDEDED;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 30px;
+    min-height: 320px;
+}
+
+.wsec5{
+    margin-top: 90px;
+}
+
+.bundlepackageimage img{
+    width: 400px;
+}
+
+.bundlepackage{
+    height: 390px;
+}
+
+.designpackage{
+    height: 390px;
+}
+
+.designpackageimage img{
+    width: 255px;
+}
+
+.wsec-6-text{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.wsec-6-imgs{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* .sec-6-imgs img{
+    width: 416px;
+    height: auto;
+} */
+
+.wsec-6-img{
+    width: 416px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.wsec-7{
+    margin-top: 90px;
+    background-color: #EDEDED;
+    margin-bottom: 40px;
 }
