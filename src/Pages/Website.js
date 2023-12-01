@@ -374,7 +374,41 @@ const Website = () => {
         </div>
 
 
-        <div className="wsec-8"></div>
+        <div className="wsec-8">
+        <div className="sec6-heading">
+            <h1>Affordable Website Packages for <br />
+            Businesses of all sizes</h1>
+            <p>
+            Our packages are custom made to facilitate businesses of all types
+            </p>
+          </div>
+
+          {/* <div className="affordable-packages">
+            {AffordablePackageslist?.map((Item, index) => {
+              return (
+                <Col key={0} xs={24} md={12} xl={6}>
+                  <div className="bestseller">
+                    <AffordablePackages
+                      TitleImage={Item.TitleImage}
+                      Heading={Item.Heading}
+                      Subheading={Item.Subheading}
+                      Pricing={Item.Pricing}
+                      Discount={Item.Discount}
+                      ListHeading={Item.ListHeading}
+                      ListItems={Item.ListItems}
+                      DeliverableImage={Item.DeliverableImage}
+                      LogoStylesHeading={Item.LogoStylesHeading}
+                      LogoStyleImage={Item.LogoStyleImage}
+                      LogoStyleListItem={Item.LogoStyleListItem}
+                      PackageHeading={Item.PackageHeading}
+                      PackageListItems={Item.PackageListItems}
+                    />
+                  </div>
+                </Col>
+              );
+            })}
+          </div> */}
+        </div>
 
     </div>
     </div>
