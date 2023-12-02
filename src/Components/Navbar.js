@@ -8,6 +8,7 @@ import logo from "../assets/logo.svg"
 import vid from "../assets/logo.mp4"
 // import Star from "../assets/cute-star-dry-clay-yellow-graphic-kids.jpg"
 import Stars from "../assets/stars_1x.webp"
+import { Link } from "react-router-dom";
 
 
 
@@ -51,13 +52,13 @@ const Navbar = () => {
       </div>
 
           <div className="tags">
-            <a href="">Logo Design</a>
-            <a href="">Website</a>
-            <a href="">Branding</a>
-            <a href="">How It Works</a>
-            <a href="">Why Choose Us</a>
-            <a href="">Packages</a>
-            <a href="">Portfolio</a>
+            <Link to={"/"}>Logo Design</Link>
+            <Link to={"/Website"}>Website</Link>
+            <Link to={"/"}>Branding</Link>
+            <Link to={"/"} >How It Works</Link>
+            <Link to={"/"}>Why Choose Us</Link>
+            <Link to={"/"}>Packages</Link>
+            <Link to={"/"}>Portfolio</Link>
           </div>
 
           <div className="startedButton">

@@ -6,8 +6,8 @@ import Website from './Pages/Website';
 
 function App() {
   return (
-    // <Home/>
-    <Website/>
+    <Home/>
+    // <Website/>
   );
 }
 
