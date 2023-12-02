@@ -48,6 +48,8 @@ import Icon4 from "../assets/icon_guarantee_1x.webp";
 
 import ExpertCard from '../Components/Cards/ExpertCard';
 import WeDesignCard from '../Components/Cards/WeDesignCards';
+import WebsitePackages from "../Components/Cards/WebsitePackages";
+
 
 
 
@@ -120,6 +122,87 @@ const Website = () => {
             Text: "Our B2B and B2C portals are SEO optimized and come with an easy to use content management system, enabling you to reach more customers with ease.",
           },
     ]
+
+
+    const AffordablePackageslist = [
+        {
+        //   TitleImage: Icon3,
+          Heading: "Beginner",
+          Subheading: "Ideal solution for beginners",
+          Pricing: "$199",
+          Discount: ["$995", "80% Off!"],
+          ListHeading: "PACKAGE INCLUDES:",
+          ListItems: [
+            "1 Page Website Design",
+            "Unlimited Revision",
+            "3 Stock Photos",
+            "1 Banner Design",
+            "Contact/Query Form",
+            "Complete W3C Certified HTML",
+            "Complete Deployment",
+            "Value Added Services*",
+            "Dedicated Project Manager",
+            "100% Ownership Rights",
+            "100% Satisfaction Guarantee",
+            "100% Money Back Guarantee",
+            "Mobile Responsive $150",
+            "Content Management System $150",
+          ],
+        //   DeliverableImage: Icon1,
+          LogoStylesHeading: "",
+        //   LogoStyleImage: Icon2,
+          LogoStyleListItem: [""],
+          PackageHeading: "",
+          PackageListItems: [""],
+        },
+        {
+            //   TitleImage: Icon3,
+              Heading: "Budget",
+              Subheading: "Ideal solution for beginners",
+              Pricing: "$299",
+              Discount: ["$1495", "80% Off!"],
+              ListHeading: "PACKAGE INCLUDES:",
+              ListItems: [
+                "4 Logo Design Concepts",
+                "5 Revision Cycle",
+                "1 Dedicated Designer",
+                "24/7 Chat Support",
+                "Free Color Options",
+                "Free Fav Icon",
+                "Print Friendly Design",
+              ],
+              DeliverableImage: Icon1,
+              LogoStylesHeading: "Logo Styles Included:",
+              LogoStyleImage: Icon2,
+              LogoStyleListItem: ["Wordmark/Logotype", "Signature/Script"],
+              PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
+              PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
+            },
+            {
+                //   TitleImage: Icon3,
+                  Heading: "Best Seller",
+                  Subheading: "Ideal solution for beginners",
+                  Pricing: "$449",
+                  Discount: ["$2245", "80% Off!"],
+                  ListHeading: "PACKAGE INCLUDES:",
+                  ListItems: [
+                    "4 Logo Design Concepts",
+                    "5 Revision Cycle",
+                    "1 Dedicated Designer",
+                    "24/7 Chat Support",
+                    "Free Color Options",
+                    "Free Fav Icon",
+                    "Print Friendly Design",
+                  ],
+                  DeliverableImage: Icon1,
+                  LogoStylesHeading: "Logo Styles Included:",
+                  LogoStyleImage: Icon2,
+                  LogoStyleListItem: ["Wordmark/Logotype", "Signature/Script"],
+                  PackageHeading: "WHEN TO CHOOSE THIS PACKAGE:",
+                  PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
+                }
+    ]
+
 
 
   return (
@@ -383,12 +466,12 @@ const Website = () => {
             </p>
           </div>
 
-          {/* <div className="affordable-packages">
+          <div className="affordable-packages">
             {AffordablePackageslist?.map((Item, index) => {
               return (
                 <Col key={0} xs={24} md={12} xl={6}>
                   <div className="bestseller">
-                    <AffordablePackages
+                    <WebsitePackages
                       TitleImage={Item.TitleImage}
                       Heading={Item.Heading}
                       Subheading={Item.Subheading}
@@ -407,7 +490,7 @@ const Website = () => {
                 </Col>
               );
             })}
-          </div> */}
+          </div>
         </div>
 
     </div>
