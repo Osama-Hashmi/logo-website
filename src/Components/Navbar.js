@@ -54,11 +54,11 @@ const Navbar = () => {
           <div className="tags">
             <Link to={"/"}>Logo Design</Link>
             <Link to={"/Website"}>Website</Link>
-            <Link to={"/"}>Branding</Link>
-            <Link to={"/"} >How It Works</Link>
-            <Link to={"/"}>Why Choose Us</Link>
-            <Link to={"/"}>Packages</Link>
-            <Link to={"/"}>Portfolio</Link>
+            <Link to={"/Branding"}>Branding</Link>
+            <Link to={"/How-it-works"} >How It Works</Link>
+            <Link to={"/Why-choose-us"}>Why Choose Us</Link>
+            <Link to={"/Packages"}>Packages</Link>
+            <Link to={"/Portfolio"}>Portfolio</Link>
           </div>
 
           <div className="startedButton">

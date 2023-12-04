@@ -81,7 +81,7 @@ import logo13_1x from "../assets/logo13_1x.webp";
 import SmallCard from "../Components/Cards/SmallCard";
 import Logodesigncard from "../Components/Cards/Logodesigncard";
 import ImpressiveLogos from "../Components/Cards/ImpressiveLogos";
-import AffordablePackages from "../Components/Cards/AffordablePackages";
+import AffordablePackages from "../Components/Cards/AffordablePackages";  
 import TestimonialCards from "../Components/Cards/TestimonialCards";
 
 import Item from "antd/es/list/Item";
