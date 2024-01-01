@@ -91,6 +91,7 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 // import { Content } from "antd/es/layout/layout";
 import { Collapse, Divider } from "antd";
 
+
 const Home = () => {
   const text = `
   A dog is a type of domesticated animal.
