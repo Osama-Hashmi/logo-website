@@ -244,6 +244,7 @@ const Home = () => {
       PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
     },
 
+
     {
       TitleImage: Tend,
       Heading: "The Ultimate",
@@ -299,6 +300,7 @@ const Home = () => {
       PackageListItems: ["100% Ownership Rights", "100% Money Back Guarantee"],
     },
   ];
+
 
   const TestimonialCardsList = [
     {
@@ -786,6 +788,7 @@ const Home = () => {
           </div>
         </div>
 
+
         <div className="sec6">
           <div className="sec6-heading">
             <h1>Affordable Business Logo Design Packages</h1>
@@ -1082,6 +1085,8 @@ const Home = () => {
       </div>
       <Footer />
     </div>
+
+    
   );
 };
 
